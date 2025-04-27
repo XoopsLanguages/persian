@@ -4,20 +4,20 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_AD_NORIGHT', 'You don\'t have the permission to access this area');
-define('_AD_ACTION', 'Action');
-define('_AD_EDIT', 'Edit');
-define('_AD_DELETE', 'Delete');
-define('_AD_LASTTENUSERS', 'Last 10 registered users');
-define('_AD_NICKNAME', 'Username');
-define('_AD_EMAIL', 'Email');
-define('_AD_AVATAR', 'Avatar');
-define('_AD_REGISTERED', 'Registered'); //Registered Date
-// define('_AD_PRESSGEN','This is your first time to enter the administration section. Press the button below to proceed.');
-define('_AD_LOGINADMIN', 'Logging you in..');
-define('_AD_WARNINGINSTALL', 'WARNING: Directory %s exists on your server. <br>Please remove this directory for security reasons.');
-define('_AD_WARNINGWRITEABLE', 'WARNING: File %s is writeable by the server. <br>Please change the permission of this file for security reasons.<br> in Unix (444), in Win32 (read-only)');
-define('_AD_WARNINGNOTWRITEABLE', 'WARNING: Folder %s is not writeable by the server. <br>Please change the permission of this folder.<br> in Unix (777), in Win32 (writable)');
-define('_AD_WARNINGXOOPSLIBINSIDE', 'WARNING: Folder %s is inside DocumentRoot! <br>For security considerations it is highly suggested to move it out of DocumentRoot.');
-define('_AD_WARNING_OLD_PHP', 'WARNING: Consider upgrading to a newer version of PHP. Version %s or newer is recommended and will be required in future XOOPS versions.');
-define('_AD_WARNING_NO_XML', 'The PHP XML Extension is required for this function.');
+define('_AD_NORIGHT', 'شما مجوز دسترسی به این بخش را ندارید');
+define('_AD_ACTION', 'عملیات');
+define('_AD_EDIT', 'ویرایش');
+define('_AD_DELETE', 'حذف');
+define('_AD_LASTTENUSERS', '۱۰ کاربر اخیر ثبت نام شده');
+define('_AD_NICKNAME', 'نام کاربری');
+define('_AD_EMAIL', 'ایمیل');
+define('_AD_AVATAR', 'آواتار');
+define('_AD_REGISTERED', 'ثبت نام شده'); //Registered Date
+// define('_AD_PRESSGEN','این اولین بار است که وارد بخش مدیریت میشوید. برای ادامه دکمه زیر را فشار دهید.');
+define('_AD_LOGINADMIN', 'در حال ورود شما به سیستم مدیریت..');
+define('_AD_WARNINGINSTALL', 'هشدار: پوشه %s در سرور شما وجود دارد. <br>لطفاً این پوشه را به دلایل امنیتی حذف کنید.');
+define('_AD_WARNINGWRITEABLE', 'هشدار: فایل %s توسط سرور قابل نوشتن است. <br>لطفاً مجوز این فایل را به دلایل امنیتی تغییر دهید.<br> در یونیکس (۴۴۴)، در ویندوز (فقط خواندنی)');
+define('_AD_WARNINGNOTWRITEABLE', 'هشدار: پوشه %s توسط سرور قابل نوشتن نیست. <br>لطفاً مجوز این پوشه را تغییر دهید.<br> در یونیکس (۷۷۷)، در ویندوز (قابل نوشتن)');
+define('_AD_WARNINGXOOPSLIBINSIDE', 'هشدار: پوشه %s درون DocumentRoot قرار دارد! <br>به دلایل امنیتی اکیداً توصیه میشود آن را از DocumentRoot خارج کنید.');
+define('_AD_WARNING_OLD_PHP', 'هشدار: ارتقاء به نسخه جدیدتر PHP را در نظر بگیرید. نسخه %s یا جدیدتر توصیه میشود و در نسخههای آینده XOOPS مورد نیاز خواهد بود.');
+define('_AD_WARNING_NO_XML', 'افزونه XML PHP برای این عملکرد مورد نیاز است.');

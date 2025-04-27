@@ -5,38 +5,44 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 // Manager
-define('_AM_SYSTEM_COMMENTS_NAV_MANAGER', 'Comment Management');
-define('_AM_SYSTEM_COMMENTS_NAV_MAIN', 'List');
-define('_AM_SYSTEM_COMMENTS_NAV_PURGE', 'Purge');
+define('_AM_SYSTEM_COMMENTS_NAV_MANAGER', 'مدیریت نظرات');
+define('_AM_SYSTEM_COMMENTS_NAV_MAIN', 'لیست');
+define('_AM_SYSTEM_COMMENTS_NAV_PURGE', 'هرس کردن');
+
 // Nav
-define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN', 'Modules Administration');
+define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN', 'مدیریت ماژول‌ها');
+
 // Tips
 define('_AM_SYSTEM_COMMENTS_NAV_TIPS', '
 <ul>
-<li>Manage comments for all your modules.</li>
-<li>Delete comments easily with the purge.</li>
+<li>مدیریت نظرات برای تمام ماژول‌های شما.</li>
+<li>حذف آسان نظرات با استفاده از هرس کردن.</li>
 </ul>');
+
 // Form
-define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS', 'List Comments');
-define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS', 'All modules');
-define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS', 'Any status');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE', 'Purge');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER', 'After this date (leave empty for any date)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE', 'Before this date (leave empty for any date)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'Groups');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'User name');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'Status');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES', 'Modules');
+define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS', 'لیست نظرات');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS', 'تمام ماژول‌ها');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS', 'هر وضعیت');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE', 'هرس کردن');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER', 'پس از این تاریخ (برای هر تاریخی خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE', 'پیش از این تاریخ (برای هر تاریخی خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'گروه‌ها');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'نام کاربر');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'وضعیت');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES', 'ماژول‌ها');
+
 // Tab
-define('_AM_SYSTEM_COMMENTS_TITLE', 'Title');
-define('_AM_SYSTEM_COMMENTS_POSTED', 'Author');
-define('_AM_SYSTEM_COMMENTS_IP', 'IP');
-define('_AM_SYSTEM_COMMENTS_MODULE', 'Module');
-define('_AM_SYSTEM_COMMENTS_STATUS', 'Status');
-define('_AM_SYSTEM_COMMENTS_ACTION', 'Action');
-define('_AM_SYSTEM_COMMENTS_VIEW', 'See comment');
-define('_AM_SYSTEM_COMMENTS_NO_COMMENTS', 'No comments');
-define('_AM_SYSTEM_COMMENTS_COMMENTS_FOUND', '%s comment(s) found.');
-//XOOPS 2.5.9
-define('_MP_DELETECOUNT', 'The number of members in the group is too big ( > 4,000) ');
+define('_AM_SYSTEM_COMMENTS_TITLE', 'عنوان');
+define('_AM_SYSTEM_COMMENTS_POSTED', 'نویسنده');
+define('_AM_SYSTEM_COMMENTS_IP', 'آی‌پی');
+define('_AM_SYSTEM_COMMENTS_MODULE', 'ماژول');
+define('_AM_SYSTEM_COMMENTS_STATUS', 'وضعیت');
+define('_AM_SYSTEM_COMMENTS_ACTION', 'اقدام');
+define('_AM_SYSTEM_COMMENTS_VIEW', 'مشاهده نظر');
+define('_AM_SYSTEM_COMMENTS_NO_COMMENTS', 'بدون نظر');
+define('_AM_SYSTEM_COMMENTS_COMMENTS_FOUND', '%s نظر یافت شد.');
+
+// XOOPS 2.5.9
+define('_MP_DELETECOUNT', 'تعداد اعضای گروه بیش از حد زیاد است (بیش از ۴,۰۰۰)');

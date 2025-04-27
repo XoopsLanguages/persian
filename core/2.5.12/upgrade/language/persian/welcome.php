@@ -7,21 +7,21 @@
 define(
     '_XOOPS_UPGRADE_WELCOME',
     <<<'EOT'
-<h2>XOOPS Upgrader</h2>
+<h2>ارتقاء XOOPS</h2>
 
 <p>
-<em>Upgrade</em> will examine this XOOPS installation and apply any needed patches to make it compatible 
-with the new XOOPS code. Patches may include database changes, adding default settings for new
-configuration items, file and data updates, and more.
+<em>ارتقاء</em> این نصب XOOPS را بررسی کرده و هرگونه وصله لازم را برای سازگاری 
+با کد جدید XOOPS اعمال خواهد کرد. وصلهها ممکن است شامل تغییرات پایگاه داده، افزودن تنظیمات پیشفرض برای موارد جدید
+پیکربندی، بهروزرسانی فایلها و دادهها و بیشتر باشد.
 <p>
-After each patch, the upgrader will report the status, and wait for your input to continue. At the
-end of the upgrade, control will pass to the system module update function.
+پس از هر وصله، ابزار ارتقاء وضعیت را گزارش داده و منتظر ورودی شما برای ادامه خواهد بود. در پایان
+ارتقاء، کنترل به عملکرد بهروزرسانی ماژول سیستم منتقل خواهد شد.
 
 <div class="alert alert-warning">
-Once the upgrade is complete, don't forget to:
+پس از اتمام ارتقاء، فراموش نکنید که:
 <ul class="fa-ul">
- <li><span class="fa-li fa-solid fa-folder-open"></span> delete the upgrade folder</li>
- <li><span class="fa-li fa-solid fa-arrows-rotate"></span> update any modules that have changed</li>
+ <li><span class="fa-li fa-solid fa-folder-open"></span> پوشه ارتقاء را حذف کنید</li>
+ <li><span class="fa-li fa-solid fa-arrows-rotate"></span> هر ماژولی که تغییر کرده است را بهروزرسانی کنید</li>
 </div>
 
 EOT,

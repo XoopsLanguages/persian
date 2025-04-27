@@ -5,69 +5,69 @@
 // Translator: XOOPS Translation Team
 // RMV-NOTIFY
 // Text for various templates...
-define('_NOT_NOTIFICATIONOPTIONS', 'Notification Options');
-define('_NOT_UPDATENOW', 'Update Now');
-define('_NOT_UPDATEOPTIONS', 'Update Notification Options');
-define('_NOT_CLEAR', 'Clear');
-define('_NOT_CHECKALL', 'Check All');
-define('_NOT_MODULE', 'Module');
-define('_NOT_CATEGORY', 'Category');
-define('_NOT_ITEMID', 'ID');
-define('_NOT_ITEMNAME', 'Name');
-define('_NOT_EVENT', 'Event');
-define('_NOT_EVENTS', 'Events');
-define('_NOT_ACTIVENOTIFICATIONS', 'Active Notifications');
-define('_NOT_NAMENOTAVAILABLE', 'Name Not Available');
+define('_NOT_NOTIFICATIONOPTIONS', 'گزینههای اطلاعرسانی');
+define('_NOT_UPDATENOW', 'بهروزرسانی');
+define('_NOT_UPDATEOPTIONS', 'بهروزرسانی گزینههای اطلاعرسانی');
+define('_NOT_CLEAR', 'پاک کردن');
+define('_NOT_CHECKALL', 'انتخاب همه');
+define('_NOT_MODULE', 'ماژول');
+define('_NOT_CATEGORY', 'دسته بندی');
+define('_NOT_ITEMID', 'شناسه');
+define('_NOT_ITEMNAME', 'نام');
+define('_NOT_EVENT', 'رویداد');
+define('_NOT_EVENTS', 'رویدادها');
+define('_NOT_ACTIVENOTIFICATIONS', 'اطلاعرسانیهای فعال');
+define('_NOT_NAMENOTAVAILABLE', 'نام موجود نیست');
 // RMV-NEW : TODO: remove NAMENOTAVAILBLE above
-define('_NOT_ITEMNAMENOTAVAILABLE', 'Item Name Not Available');
-define('_NOT_ITEMTYPENOTAVAILABLE', 'Item Type Not Available');
-define('_NOT_ITEMURLNOTAVAILABLE', 'Item URL Not Available');
-define('_NOT_DELETINGNOTIFICATIONS', 'Deleting Notifications');
-define('_NOT_DELETESUCCESS', 'Notification(s) deleted successfully.');
-define('_NOT_UPDATEOK', 'Notification options updated');
-define('_NOT_NOTIFICATIONMETHODIS', 'Notification method is');
-define('_NOT_EMAIL', 'email');
-define('_NOT_PM', 'private message');
-define('_NOT_DISABLE', 'disabled');
-define('_NOT_CHANGE', 'Change');
-define('_NOT_NOACCESS', 'You do not have permission to access this page.');
-// Text for module config options
-define('_NOT_ENABLE', 'Enable');
-define('_NOT_NOTIFICATION', 'Notification');
-define('_NOT_CONFIG_ENABLED', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDDSC', 'This module allows users to select to be notified when certain events occur.  Choose "yes" to enable this feature.');
-define('_NOT_CONFIG_EVENTS', 'Enable Specific Events');
-define('_NOT_CONFIG_EVENTSDSC', 'Select which notification events to which your users may subscribe.');
-define('_NOT_CONFIG_ENABLE', 'Enable Notification');
-define('_NOT_CONFIG_ENABLEDSC', 'This module allows users to be notified when certain events occur.  Select if users should be presented with notification options in a Block (Block-style), within the module (Inline-style), or both.  For block-style notification, the Notification Options block must be enabled for this module.');
-define('_NOT_CONFIG_DISABLE', 'Disable Notification');
-define('_NOT_CONFIG_ENABLEBLOCK', 'Enable only Block-style');
-define('_NOT_CONFIG_ENABLEINLINE', 'Enable only Inline-style');
-define('_NOT_CONFIG_ENABLEBOTH', 'Enable Notification (both styles)');
-// For notification about comment events
-define('_NOT_COMMENT_NOTIFY', 'Comment Added');
-define('_NOT_COMMENT_NOTIFYCAP', 'Notify me when a new comment is posted for this item.');
-define('_NOT_COMMENT_NOTIFYDSC', 'Receive notification whenever a new comment is posted (or approved) for this item.');
-define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment added to {X_ITEM_TYPE}');
-define('_NOT_COMMENTSUBMIT_NOTIFY', 'Comment Submitted');
-define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Notify me when a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Receive notification whenever a new comment is submitted (awaiting approval) for this item.');
-define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Comment submitted for {X_ITEM_TYPE}');
-// For notification bookmark feature
-// (Not really notification, but easy to do with this module)
-define('_NOT_BOOKMARK_NOTIFY', 'Bookmark');
-define('_NOT_BOOKMARK_NOTIFYCAP', 'Bookmark this item (no notification).');
-define('_NOT_BOOKMARK_NOTIFYDSC', 'Keep track of this item without receiving any event notifications.');
-// For user profile
-// FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD', 'Notification Method<br> When you monitor e.g. a forum, how would you like to receive notifications of updates?');
-define('_NOT_METHOD_EMAIL', 'Email (use address in my profile)');
-define('_NOT_METHOD_PM', 'Private Message');
-define('_NOT_METHOD_DISABLE', 'Temporarily Disable');
-define('_NOT_NOTIFYMODE', 'Default Notification Mode');
-define('_NOT_MODE_SENDALWAYS', 'Notify me of all selected updates');
-define('_NOT_MODE_SENDONCE', 'Notify me only once');
-define('_NOT_MODE_SENDONCEPERLOGIN', 'Notify me once then disable until I log in again');
-define('_NOT_NOTHINGTODELETE', 'There is nothing to delete.');
+define('_NOT_ITEMNAMENOTAVAILABLE', 'نام آیتم موجود نیست');
+define('_NOT_ITEMTYPENOTAVAILABLE', 'نوع آیتم موجود نیست');
+define('_NOT_ITEMURLNOTAVAILABLE', 'آدرس اینترنتی آیتم موجود نیست');
+define('_NOT_DELETINGNOTIFICATIONS', 'در حال حذف اطلاعرسانیها');
+define('_NOT_DELETESUCCESS', 'اطلاعرسانیها با موفقیت حذف شدند.');
+define('_NOT_UPDATEOK', 'گزینههای اطلاعرسانی بهروزرسانی شدند');
+define('_NOT_NOTIFICATIONMETHODIS', 'روش اطلاعرسانی');
+define('_NOT_EMAIL', 'ایمیل');
+define('_NOT_PM', 'پیام خصوصی');
+define('_NOT_DISABLE', 'غیرفعال');
+define('_NOT_CHANGE', 'تغییر');
+define('_NOT_NOACCESS', 'شما مجوز دسترسی به این صفحه را ندارید.');
+// متن برای گزینههای پیکربندی ماژول
+define('_NOT_ENABLE', 'فعال کردن');
+define('_NOT_NOTIFICATION', 'اطلاعرسانی');
+define('_NOT_CONFIG_ENABLED', 'فعال کردن اطلاعرسانی');
+define('_NOT_CONFIG_ENABLEDDSC', 'این ماژول به کاربران اجازه میدهد تا برای دریافت اطلاعرسانی هنگام وقوع رویدادهای خاص انتخاب کنند. برای فعال کردن این ویژگی "بله" را انتخاب کنید.');
+define('_NOT_CONFIG_EVENTS', 'فعال کردن رویدادهای خاص');
+define('_NOT_CONFIG_EVENTSDSC', 'رویدادهای اطلاعرسانی را که کاربران شما میتوانند در آنها مشترک شوند، انتخاب کنید.');
+define('_NOT_CONFIG_ENABLE', 'فعال کردن اطلاعرسانی');
+define('_NOT_CONFIG_ENABLEDSC', 'این ماژول به کاربران اجازه میدهد تا هنگام وقوع رویدادهای خاص مطلع شوند. انتخاب کنید که آیا گزینههای اطلاعرسانی باید در یک بلوک (سبک بلوکی)، درون ماژول (سبک درونخطی) یا هر دو به کاربران نمایش داده شود. برای اطلاعرسانی به سبک بلوکی، بلوک "گزینههای اطلاعرسانی" باید برای این ماژول فعال باشد.');
+define('_NOT_CONFIG_DISABLE', 'غیرفعال کردن اطلاعرسانی');
+define('_NOT_CONFIG_ENABLEBLOCK', 'فعال کردن فقط سبک بلوکی');
+define('_NOT_CONFIG_ENABLEINLINE', 'فعال کردن فقط سبک درونخطی');
+define('_NOT_CONFIG_ENABLEBOTH', 'فعال کردن اطلاعرسانی (هر دو سبک)');
+// برای اطلاعرسانی در مورد رویدادهای نظر
+define('_NOT_COMMENT_NOTIFY', 'نظر اضافه شد');
+define('_NOT_COMMENT_NOTIFYCAP', 'هنگامی که نظر جدیدی برای این مورد ارسال میشود، به من اطلاع دهید.');
+define('_NOT_COMMENT_NOTIFYDSC', 'هر زمان که نظر جدیدی برای این مورد ارسال (یا تایید) شد، اطلاع دریافت کنید.');
+define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] اطلاعرسانی خودکار {X_MODULE}: نظر به {X_ITEM_TYPE} اضافه شد');
+define('_NOT_COMMENTSUBMIT_NOTIFY', 'نظر ارسال شد');
+define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'هنگامی که نظر جدیدی برای این مورد ارسال (در انتظار تایید) میشود، به من اطلاع دهید.');
+define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'هر زمان که نظر جدیدی برای این مورد ارسال (در انتظار تایید) شد، اطلاع دریافت کنید.');
+define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] اطلاعرسانی خودکار {X_MODULE}: نظر برای {X_ITEM_TYPE} ارسال شد');
+// برای قابلیت نشانک اطلاعرسانی
+// (در واقع اطلاعرسانی نیست، اما انجام آن با این ماژول آسان است)
+define('_NOT_BOOKMARK_NOTIFY', 'نشانک');
+define('_NOT_BOOKMARK_NOTIFYCAP', 'نشانک کردن این مورد (بدون اطلاعرسانی).');
+define('_NOT_BOOKMARK_NOTIFYDSC', 'پیگیری این مورد بدون دریافت هیچ گونه اطلاعرسانی رویداد.');
+// برای پروفایل کاربر
+// FIXME: این موارد باید کمی تغییر یابند...
+define('_NOT_NOTIFYMETHOD', 'روش اطلاعرسانی<br>هنگامی که به عنوان مثال یک انجمن را نظارت میکنید، چگونه میخواهید از بهروزرسانیها مطلع شوید؟');
+define('_NOT_METHOD_EMAIL', 'ایمیل (استفاده از آدرس موجود در پروفایل من)');
+define('_NOT_METHOD_PM', 'پیام خصوصی');
+define('_NOT_METHOD_DISABLE', 'غیرفعال کردن موقت');
+define('_NOT_NOTIFYMODE', 'حالت پیشفرض اطلاعرسانی');
+define('_NOT_MODE_SENDALWAYS', 'از تمام بهروزرسانیهای انتخاب شده به من اطلاع دهید');
+define('_NOT_MODE_SENDONCE', 'فقط یک بار به من اطلاع دهید');
+define('_NOT_MODE_SENDONCEPERLOGIN', 'یک بار به من اطلاع دهید و سپس تا ورود مجدد من غیرفعال شود');
+define('_NOT_NOTHINGTODELETE', 'هیچ چیزی برای حذف وجود ندارد.');
 //XOOPS 2.5.9
-define('_NOT_RUSUREDEL', 'Are you sure to delete this Notification?');
+define('_NOT_RUSUREDEL', 'آیا برای حذف این اطلاعرسانی مطمئن هستید؟');

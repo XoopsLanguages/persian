@@ -5,166 +5,179 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 // Navigation
-define('_AM_SYSTEM_MODULES_ADMIN', 'XOOPS Module Administration');
-define('_AM_SYSTEM_MODULES_LIST', 'Module List');
-define('_AM_SYSTEM_MODULES_TOINSTALL', 'Install module');
-define('_AM_SYSTEM_MODULES_VALIDATE', 'Validate changes');
-define('_AM_SYSTEM_MODULES_SUBMITRES', 'Submit Result');
+define('_AM_SYSTEM_MODULES_ADMIN', 'مدیریت ماژولهای XOOPS');
+define('_AM_SYSTEM_MODULES_LIST', 'لیست ماژولها');
+define('_AM_SYSTEM_MODULES_TOINSTALL', 'نصب ماژول');
+define('_AM_SYSTEM_MODULES_VALIDATE', 'تأیید تغییرات');
+define('_AM_SYSTEM_MODULES_SUBMITRES', 'ارسال نتیجه');
+
 // Messages
-define('_AM_SYSTEM_MODULES_RUSUREINS', 'Press the button below to install this module');
-define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'Are you sure you would like to uninstall this module?');
-define('_AM_SYSTEM_MODULES_RUSUREUPD', 'Press the button below to update this module');
-define('_AM_SYSTEM_MODULES_BTOMADMIN', 'XOOPS Module Administration');
-define('_AM_SYSTEM_MODULES_INSTALLING', 'Installing ');
-define('_AM_SYSTEM_MODULES_DEACTIVATE', 'Deactivate ');
-define('_AM_SYSTEM_MODULES_ACTIVATE', 'Activate ');
-define('_AM_SYSTEM_MODULES_UPDATING', 'Updating ');
+define('_AM_SYSTEM_MODULES_RUSUREINS', 'برای نصب این ماژول، دکمه زیر را فشار دهید');
+define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'آیا مطمئن هستید که میخواهید این ماژول را حذف کنید؟');
+define('_AM_SYSTEM_MODULES_RUSUREUPD', 'برای بهروزرسانی این ماژول، دکمه زیر را فشار دهید');
+define('_AM_SYSTEM_MODULES_BTOMADMIN', 'مدیریت ماژولهای XOOPS');
+define('_AM_SYSTEM_MODULES_INSTALLING', 'در حال نصب ');
+define('_AM_SYSTEM_MODULES_DEACTIVATE', 'غیرفعال کردن ');
+define('_AM_SYSTEM_MODULES_ACTIVATE', 'فعال کردن ');
+define('_AM_SYSTEM_MODULES_UPDATING', 'در حال بهروزرسانی ');
+
 // Main
-define('_AM_SYSTEM_MODULES_INSTALL', 'Install');
-define('_AM_SYSTEM_MODULES_UNINSTALL', 'Uninstall');
-define('_AM_SYSTEM_MODULES_UPDATE', 'Update');
-define('_AM_SYSTEM_MODULES_VIEWLARGE', 'Large View');
-define('_AM_SYSTEM_MODULES_VIEWLINE', 'Line View');
+define('_AM_SYSTEM_MODULES_INSTALL', 'نصب');
+define('_AM_SYSTEM_MODULES_UNINSTALL', 'حذف');
+define('_AM_SYSTEM_MODULES_UPDATE', 'بهروزرسانی');
+define('_AM_SYSTEM_MODULES_VIEWLARGE', 'نمایش بزرگ');
+define('_AM_SYSTEM_MODULES_VIEWLINE', 'نمایش خطی');
+
 // %s represents module name
-define('_AM_SYSTEM_MODULES_FAILINS', 'Unable to install %s.');
-define('_AM_SYSTEM_MODULES_FAILACT', 'Unable to activate %s.');
-define('_AM_SYSTEM_MODULES_FAILDEACT', 'Unable to deactivate %s.');
-define('_AM_SYSTEM_MODULES_FAILUPD', 'Unable to update %s.');
-define('_AM_SYSTEM_MODULES_FAILUNINS', 'Unable to uninstall %s.');
-define('_AM_SYSTEM_MODULES_FAILORDER', 'Unable to reorder %s.');
-define('_AM_SYSTEM_MODULES_FAILWRITE', 'Unable to write to main menu.');
-define('_AM_SYSTEM_MODULES_ALEXISTS', 'Module %s already exists.');
-define('_AM_SYSTEM_MODULES_ERRORSC', 'Error(s):');
-define('_AM_SYSTEM_MODULES_OKINS', 'Module %s installed successfully.');
-define('_AM_SYSTEM_MODULES_OKACT', 'Module %s activated successfully.');
-define('_AM_SYSTEM_MODULES_OKDEACT', 'Module %s deactivated successfully.');
-define('_AM_SYSTEM_MODULES_OKUPD', 'Module %s updated successfully.');
-define('_AM_SYSTEM_MODULES_OKUNINS', 'Module %s uninstalled successfully.');
-define('_AM_SYSTEM_MODULES_OKORDER', 'Module %s changed successfully.');
-define('_AM_SYSTEM_MODULES_MODULE', 'Module');
-define('_AM_SYSTEM_MODULES_VERSION', 'Version');
-define('_AM_SYSTEM_MODULES_LASTUP', 'Last Update');
-define('_AM_SYSTEM_MODULES_DEACTIVATED', 'Deactivated');
-define('_AM_SYSTEM_MODULES_ACTION', 'Action');
-define('_AM_SYSTEM_MODULES_MENU', 'Menu');
-define('_AM_SYSTEM_MODULES_HIDE', 'Hide');
-define('_AM_SYSTEM_MODULES_SHOW', 'Show');
-define('_AM_SYSTEM_MODULES_DUPEN', 'Duplicate entry in modules table!');
-define('_AM_SYSTEM_MODULES_DEACTED', 'The selected module has been deactivated. You can now safely uninstall the module.');
-define('_AM_SYSTEM_MODULES_ACTED', 'The selected module has been activated!');
-define('_AM_SYSTEM_MODULES_UPDTED', 'The selected module has been updated!');
-define('_AM_SYSTEM_MODULES_SYSNO', 'System module cannot be deactivated.');
-define('_AM_SYSTEM_MODULES_STRTNO', 'This module is set as your default start page. Please change the start module to whatever suits your preferences.');
-define('_AM_SYSTEM_MODULES_ORDER', 'Order');
-define('_AM_SYSTEM_MODULES_ORDER0', '(0 = hide)');
-define('_AM_SYSTEM_MODULES_ACTIVE', 'Active');
-define('_AM_SYSTEM_MODULES_INACTIVE', 'Inactive');
-define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'Not Installed');
-define('_AM_SYSTEM_MODULES_NOCHANGE', 'No Change');
-define('_AM_SYSTEM_MODULES_SUBMIT', 'Submit');
-define('_AM_SYSTEM_MODULES_CANCEL', 'Cancel');
-define('_AM_SYSTEM_MODULES_DBUPDATE', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'The following blocks will be updated.<br>Select the blocks of which contents (template and options) may be overwritten.<br>');
-define('_AM_SYSTEM_MODULES_NEWBLKS', 'New Blocks');
-define('_AM_SYSTEM_MODULES_DEPREBLKS', 'Deprecated Blocks');
+define('_AM_SYSTEM_MODULES_FAILINS', 'ناتوانی در نصب %s.');
+define('_AM_SYSTEM_MODULES_FAILACT', 'ناتوانی در فعالسازی %s.');
+define('_AM_SYSTEM_MODULES_FAILDEACT', 'ناتوانی در غیرفعالسازی %s.');
+define('_AM_SYSTEM_MODULES_FAILUPD', 'ناتوانی در بهروزرسانی %s.');
+define('_AM_SYSTEM_MODULES_FAILUNINS', 'ناتوانی در حذف %s.');
+define('_AM_SYSTEM_MODULES_FAILORDER', 'ناتوانی در تغییر ترتیب %s.');
+define('_AM_SYSTEM_MODULES_FAILWRITE', 'ناتوانی در نوشتن در منوی اصلی.');
+define('_AM_SYSTEM_MODULES_ALEXISTS', 'ماژول %s از قبل وجود دارد.');
+define('_AM_SYSTEM_MODULES_ERRORSC', 'خطا(ها):');
+define('_AM_SYSTEM_MODULES_OKINS', 'ماژول %s با موفقیت نصب شد.');
+define('_AM_SYSTEM_MODULES_OKACT', 'ماژول %s با موفقیت فعال شد.');
+define('_AM_SYSTEM_MODULES_OKDEACT', 'ماژول %s با موفقیت غیرفعال شد.');
+define('_AM_SYSTEM_MODULES_OKUPD', 'ماژول %s با موفقیت بهروزرسانی شد.');
+define('_AM_SYSTEM_MODULES_OKUNINS', 'ماژول %s با موفقیت حذف شد.');
+define('_AM_SYSTEM_MODULES_OKORDER', 'ماژول %s با موفقیت تغییر یافت.');
+define('_AM_SYSTEM_MODULES_MODULE', 'ماژول');
+define('_AM_SYSTEM_MODULES_VERSION', 'نسخه');
+define('_AM_SYSTEM_MODULES_LASTUP', 'آخرین بهروزرسانی');
+define('_AM_SYSTEM_MODULES_DEACTIVATED', 'غیرفعال شده');
+define('_AM_SYSTEM_MODULES_ACTION', 'اقدام');
+define('_AM_SYSTEM_MODULES_MENU', 'منو');
+define('_AM_SYSTEM_MODULES_HIDE', 'مخفی کردن');
+define('_AM_SYSTEM_MODULES_SHOW', 'نمایش');
+define('_AM_SYSTEM_MODULES_DUPEN', 'ورودی تکراری در جدول ماژولها!');
+define('_AM_SYSTEM_MODULES_DEACTED', 'ماژول انتخابشده غیرفعال شد. اکنون میتوانید ماژول را با اطمینان حذف کنید.');
+define('_AM_SYSTEM_MODULES_ACTED', 'ماژول انتخابشده فعال شد!');
+define('_AM_SYSTEM_MODULES_UPDTED', 'ماژول انتخابشده بهروزرسانی شد!');
+define('_AM_SYSTEM_MODULES_SYSNO', 'ماژول سیستمی نمیتواند غیرفعال شود.');
+define('_AM_SYSTEM_MODULES_STRTNO', 'این ماژول به عنوان صفحه شروع پیشفرض شما تنظیم شده است. لطفاً ماژول شروع را به هر چیزی که با ترجیحات شما مطابقت دارد تغییر دهید.');
+define('_AM_SYSTEM_MODULES_ORDER', 'ترتیب');
+define('_AM_SYSTEM_MODULES_ORDER0', '(0 = مخفی)');
+define('_AM_SYSTEM_MODULES_ACTIVE', 'فعال');
+define('_AM_SYSTEM_MODULES_INACTIVE', 'غیرفعال');
+define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'نصبنشده');
+define('_AM_SYSTEM_MODULES_NOCHANGE', 'بدون تغییر');
+define('_AM_SYSTEM_MODULES_SUBMIT', 'ارسال');
+define('_AM_SYSTEM_MODULES_CANCEL', 'لغو');
+define('_AM_SYSTEM_MODULES_DBUPDATE', 'پایگاه داده با موفقیت بهروزرسانی شد');
+define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'بلوکهای زیر بهروزرسانی خواهند شد.<br>بلوکهایی را انتخاب کنید که محتوای آنها (قالب و گزینهها) ممکن است بازنویسی شود.<br>');
+define('_AM_SYSTEM_MODULES_NEWBLKS', 'بلوکهای جدید');
+define('_AM_SYSTEM_MODULES_DEPREBLKS', 'بلوکهای منسوخ');
+
 // Logger
-define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s is a reserved table!');
-define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'Creating tables...');
-define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'Table %s created');
-define('_AM_SYSTEM_MODULES_INSERT_DATA', '&nbsp;&nbsp; Data inserted to table %s');
-define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'Could not insert %s to database.');
-define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'Module data inserted successfully.');
-define('_AM_SYSTEM_MODULES_MODULEID', ' Module ID: %s');
-define('_AM_SYSTEM_MODULES_SQL_FOUND', 'SQL file found at %s ');
-define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'SQL file not found at %s');
-define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'ERROR: Could not create %s ');
-define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s is not a valid SQL!');
-define('_AM_SYSTEM_MODULES_GROUP_ID', ' Group ID: %s ');
-define('_AM_SYSTEM_MODULES_NAME', ' Name: ');
-define('_AM_SYSTEM_MODULES_VALUE', ' Value: ');
+define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s یک جدول رزروشده است!');
+define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'در حال ایجاد جداول...');
+define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'جدول %s ایجاد شد');
+define('_AM_SYSTEM_MODULES_INSERT_DATA', 'دادهها به جدول %s درج شدند');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'ناتوانی در درج %s به پایگاه داده.');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'دادههای ماژول با موفقیت درج شدند.');
+define('_AM_SYSTEM_MODULES_MODULEID', 'شناسه ماژول: %s');
+define('_AM_SYSTEM_MODULES_SQL_FOUND', 'فایل SQL در %s یافت شد');
+define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'فایل SQL در %s یافت نشد');
+define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'خطا: ناتوانی در ایجاد %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s یک SQL معتبر نیست!');
+define('_AM_SYSTEM_MODULES_GROUP_ID', 'شناسه گروه: %s');
+define('_AM_SYSTEM_MODULES_NAME', 'نام: ');
+define('_AM_SYSTEM_MODULES_VALUE', 'مقدار: ');
+
 // Templates
-define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'Adding templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'Deleting templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'Updating templates...');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'Template ID: %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'Template %s added to the database');
-define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'ERROR: Could not insert template %s to the database.');
-define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'Template %s compiled ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'ERROR: Failed compiling template %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'Template %s deleted from the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'ERROR: Could not delete template %s from the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'Template %s inserted to the database. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'Template %s recompiled');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'ERROR: Template %s recompile failed');
-define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'ERROR: Could not recompile template %s ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'ERROR: Could not delete old template %s. Aborting update of this file. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'Template %s updated. ');
-define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'ERROR: Could not update %s template. ');
+define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'در حال افزودن قالبها...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'در حال حذف قالبها...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'در حال بهروزرسانی قالبها...');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'شناسه قالب: %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'قالب %s به پایگاه داده اضافه شد');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'خطا: ناتوانی در درج قالب %s به پایگاه داده.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'قالب %s کامپایل شد');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'خطا: ناتوانی در کامپایل قالب %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'قالب %s از پایگاه داده حذف شد.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'خطا: ناتوانی در حذف قالب %s از پایگاه داده.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'قالب %s به پایگاه داده درج شد.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'قالب %s بازکامپایل شد');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'خطا: بازکامپایل قالب %s ناموفق بود');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'خطا: ناتوانی در بازکامپایل قالب %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'خطا: ناتوانی در حذف قالب قدیمی %s. بهروزرسانی این فایل لغو شد.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'قالب %s بهروزرسانی شد.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'خطا: ناتوانی در بهروزرسانی قالب %s.');
+
 // Blocks
-define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'Adding blocks...');
-define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'Deleting block...');
-define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'Rebuilding blocks...');
-define('_AM_SYSTEM_MODULES_BLOCK_ID', ' Block ID: %s ');
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'Added block access right');
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'ERROR: Could not add block access right');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'Block %s added ');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'ERROR: Could not add block %s to the database! ');
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'Database error: %s ');
-define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'Block %s created ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'Block %s deleted. ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'Block template %s deleted from the database. ');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'ERROR: Could not delete block %s');
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'ERROR: Could not delete block template %s from the database');
-define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'Block template %s deprecated ');
-define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'ERROR: Could not remove deprecated block template.  ');
-define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', 'Block %s updated. ');
+define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'در حال افزودن بلوکها...');
+define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'در حال حذف بلوک...');
+define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'در حال بازسازی بلوکها...');
+define('_AM_SYSTEM_MODULES_BLOCK_ID', 'شناسه بلوک: %s');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'حق دسترسی بلوک اضافه شد');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'خطا: ناتوانی در افزودن حق دسترسی بلوک');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'بلوک %s اضافه شد');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'خطا: ناتوانی در افزودن بلوک %s به پایگاه داده!');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'خطای پایگاه داده: %s');
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'بلوک %s ایجاد شد');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'بلوک %s حذف شد.');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'قالب بلوک %s از پایگاه داده حذف شد.');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'خطا: ناتوانی در حذف بلوک %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'خطا: ناتوانی در حذف قالب بلوک %s از پایگاه داده');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'قالب بلوک %s منسوخ شد');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'خطا: ناتوانی در حذف قالب بلوک منسوخ.');
+
 // Configs
-define('_AM_SYSTEM_MODULES_GONFIG_ID', 'Config ID: %s');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'Adding module config data...');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'Deleting module config options...');
-define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'Module data updated.');
-define('_AM_SYSTEM_MODULES_CONFIG_ADD', ' Config option added');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', ' Config %s added to the database');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', ' ERROR: Could not insert config %s to the database. ');
-define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'Config data deleted from the database. ');
-define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'ERROR: Could not delete config data from the database');
+define('_AM_SYSTEM_MODULES_GONFIG_ID', 'شناسه پیکربندی: %s');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'در حال افزودن دادههای پیکربندی ماژول...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'در حال حذف گزینههای پیکربندی ماژول...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'دادههای ماژول بهروزرسانی شد.');
+define('_AM_SYSTEM_MODULES_CONFIG_ADD', 'گزینه پیکربندی اضافه شد');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', 'پیکربندی %s به پایگاه داده اضافه شد');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', 'خطا: ناتوانی در درج پیکربندی %s به پایگاه داده.');
+define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'دادههای پیکربندی از پایگاه داده حذف شد.');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'خطا: ناتوانی در حذف دادههای پیکربندی از پایگاه داده');
+
 // Access
-define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'Setting group rights...');
-define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'ERROR: Could not delete group permissions ');
-define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'Group permissions deleted ');
-define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'Added admin access right for Group ID %s');
-define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'ERROR: Could not add admin access right for Group ID %s');
-define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'Added user access right for Group ID: %s');
-define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR', 'ERROR: Could not add user access right for Group ID: %s');
-// execute module specific install script if any
-define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'Failed to execute %s');
-define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s executed successfully.');
-define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'ERROR: Could not delete %s');
-define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'ERROR: Could not update %s');
-define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'Deleting module tables...');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'Deleting comments...');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'ERROR: Could not delete comments');
-define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'Comments deleted');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'Deleting notifications...');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'ERROR: Could not delete notifications');
-define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'Notifications deleted');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'Table %s dropped!');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'ERROR: Could not drop table %s');
-define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'ERROR: Not allowed to drop table %s !');
+define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'در حال تنظیم حقوق گروه...');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'خطا: ناتوانی در حذف مجوزهای گروه');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'مجوزهای گروه حذف شدند');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'حق دسترسی مدیر برای شناسه گروه %s اضافه شد');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'خطا: ناتوانی در افزودن حق دسترسی مدیر برای شناسه گروه %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'حق دسترسی کاربر برای شناسه گروه: %s اضافه شد');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR', 'خطا: ناتوانی در افزودن حق دسترسی کاربر برای شناسه گروه: %s');
+
+// Execute module specific install script if any
+define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'ناتوانی در اجرای %s');
+define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s با موفقیت اجرا شد.');
+define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'خطا: ناتوانی در حذف %s');
+define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'خطا: ناتوانی در بهروزرسانی %s');
+define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'در حال حذف جداول ماژول...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'در حال حذف نظرات...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'خطا: ناتوانی در حذف نظرات');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'نظرات حذف شدند');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'در حال حذف اعلانها...');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'خطا: ناتوانی در حذف اعلانها');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'اعلانها حذف شدند');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'جدول %s حذف شد!');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'خطا: ناتوانی در حذف جدول %s');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'خطا: حذف جدول %s مجاز نیست!');
+
 // Tips
 define('_AM_SYSTEM_MODULES_TIPS', '<ul>
-<li>If you install a new module, remember to set up module preferences, blocks and users permissions!</li>
-<li>For hide module into Main Menu block, set order to 0</li>
-<li>Delete unused module files from your server to avoid security issues and keep your website safe.</li>
-<li>To change order of modules (which will be reflected in the Menu), you just need to drag and drop the modules to the desired placement.</li>
+<li>اگر ماژول جدیدی نصب کنید، فراموش نکنید که تنظیمات ماژول، بلوکها و مجوزهای کاربران را تنظیم کنید!</li>
+<li>برای مخفی کردن ماژول در بلوک منوی اصلی، ترتیب را به 0 تنظیم کنید</li>
+<li>فایلهای ماژول استفادهنشده را از سرور خود حذف کنید تا از مشکلات امنیتی جلوگیری کرده و وبسایت خود را ایمن نگه دارید.</li>
+<li>برای تغییر ترتیب ماژولها (که در منو منعکس خواهد شد)، کافی است ماژولها را به مکان مورد نظر بکشید و رها کنید.</li>
 </ul>');
 define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
-<li>Check all modifications for validate.</li>
+<li>تمام تغییرات را برای تأیید بررسی کنید.</li>
 </ul>');
+
 // 2.5.7
-define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Add Test Data');
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'افزودن دادههای آزمایشی');
+
 // 2.5.8
-define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Install more modules');
+define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'نصب ماژولهای بیشتر');
+
 // 2.5.11
-define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'This Module Admin');
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'مدیریت این ماژول');

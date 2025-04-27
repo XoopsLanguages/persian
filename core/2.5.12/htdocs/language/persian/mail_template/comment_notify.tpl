@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-A comment has been added to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+یک نظر به {X_ITEM_TYPE} "{X_ITEM_NAME}" که شما در ماژول {X_MODULE} سایت ما تحت نظر دارید، افزوده شده است.
 
-You can view the comment here:
+شما میتوانید نظر را از اینجا مشاهده کنید:
 {X_COMMENT_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when comments are added to this {X_ITEM_TYPE}.
+شما این پیام را دریافت کردهاید زیرا هنگام اضافه شدن نظرات به این {X_ITEM_TYPE} انتخاب کردهاید که از این موضوع مطلع شوید.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+اگر این پیام خطا بوده یا اگر تمایل ندارید که دیگر چنین اطلاعرسانیهایی دریافت کنید، لطفاً با مراجعه به لینک زیر اشتراکهای خود را بهروزرسانی کنید:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+لطفاً به این پیام پاسخ ندهید.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+مدیر وبسایت
 {X_ADMINMAIL}

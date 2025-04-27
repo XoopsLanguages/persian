@@ -1,21 +1,20 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-Thank you for registering as a member of {SITENAME}. As a registered member your can:
-- Send private messages among members
-- Participate in discussion boards
-- Get the latest news
-- Submit content
-- Much, much more....
+از ثبتنام شما به عنوان عضو {SITENAME} متشکریم. به عنوان یک عضو ثبتنامشده شما میتوانید:
+- پیامهای خصوصی ارسال کنید
+- در انجمنهای گفتگو شرکت کنید
+- آخرین اخبار را دریافت کنید
+- محتوا ارسال کنید
+- و بسیاری از امکانات دیگر....
 
-The email address ({X_UEMAIL}) has been used to create a user profile for you.
+آدرس ایمیل ({X_UEMAIL}) برای ایجاد پروفایل کاربری شما استفاده شده است.
 
-To become a member of {SITENAME}, please confirm your
-request by clicking on the link below:
+برای عضویت در {SITENAME}، لطفاً درخواست خود را با کلیک روی لینک زیر تایید کنید:
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+با بهترین آرزوها
 {SITENAME}
-({SITEURL}) 
+({SITEURL})
 {ADMINMAIL}

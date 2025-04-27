@@ -4,21 +4,19 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-$content .= "<h3>Your site</h3>
-<p>You can now access the <a href='../index.php'>home page of your site</a>.</p>
-<h3>Support</h3>
-<p>Visit <a href='https://xoops.org/' rel='external'>The XOOPS Project</a></p>
-<p><strong>ATTENTION :</strong> Your site currently contains the minimum functionality. 
-Please visit <a href='https://xoops.org/' rel='external' title='XOOPS Web Application System'>xoops.org</a> 
-to learn more about extending XOOPS to present text pages, photo galleries, forums, and more, 
-with <em>modules</em> as well as customizing the look of your XOOPS with <em>themes</em>.</p>
+$content .= "<h3>وبسایت شما</h3>
+<p>اکنون میتوانید به <a href='../index.php'>صفحه اصلی وبسایت خود</a> دسترسی پیدا کنید.</p>
+<h3>پشتیبانی</h3>
+<p>از <a href='https://xoops.org/' rel='external'>پروژه XOOPS</a> دیدن کنید.</p>
+<p><strong>توجه:</strong> وبسایت شما در حال حاضر شامل حداقل قابلیتها است.
+لطفاً برای کسب اطلاعات بیشتر در مورد گسترش XOOPS برای ارائه صفحات متنی، گالریهای عکس، انجمنها و موارد دیگر، با استفاده از <em>ماژولها</em> و همچنین سفارشیسازی ظاهر XOOPS با استفاده از <em>پوستهها</em>، از <a href='https://xoops.org/' rel='external' title='سامانه نرمافزار کاربردی وب XOOPS'>xoops.org</a> دیدن کنید.</p>
 ";
 
-$content .= "<h3>Security configuration</h3>
-<p>The installer will try to configure your site for security considerations. Please double-check to make sure:
+$content .= "<h3>پیکربندی امنیتی</h3>
+<p>نصبکننده تلاش خواهد کرد تا وبسایت شما را برای ملاحظات امنیتی پیکربندی کند. لطفاً برای اطمینان دوبار بررسی کنید که:
 <div class='confirmMsg'>
-The <em>mainfile.php</em> is readonly.<br>
-Remove the folder <em>{$installer_modified}</em> (or <em>install</em> if it was not renamed automatically by the installer)  from your server.
+فایل <em>mainfile.php</em> فقطخواندنی است.<br>
+پوشه <em>{$installer_modified}</em> (یا <em>install</em> اگر به طور خودکار توسط نصبکننده تغییر نام داده نشده است) را از سرور خود حذف کنید.
 </div>
 </p>
 ";

@@ -5,29 +5,30 @@
 // Translator: XOOPS Translation Team
 // %%%%%%    Admin Module Name  AdminGroup     %%%%%
 //Nav
-define('_AM_SYSTEM_GROUPS_NAV_MANAGER', 'Groups Manager');
-define('_AM_SYSTEM_GROUPS_NAV_LIST', 'Groups list');
-define('_AM_SYSTEM_GROUPS_NAV_ADD', 'Add a new group');
-define('_AM_SYSTEM_GROUPS_NAV_EDIT', 'Edit group');
-define('_AM_SYSTEM_GROUPS_NAV_DELETE', 'Delete group');
-// Tips
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_1', '<ul><li>Create a new group with their own permissions.</li><li>Edit group for change permissions.</li></ul>');
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_2', '<ul><li>Change or create permission for this group, all modification will affect users of this group.</li></ul>');
-//Infos
-define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', 'Module Access rights');
-define('_AM_SYSTEM_GROUPS_ACTION', 'Action');
-define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'Module Admin rights');
-define('_AM_SYSTEM_GROUPS_ADD', 'Add a new group');
-define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', 'Block Access Rights');
-define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', 'Custom Block');
-define('_AM_SYSTEM_GROUPS_DELETE', 'Delete group');
-define('_AM_SYSTEM_GROUPS_DESCRIPTION', 'Group Description');
-define('_AM_SYSTEM_GROUPS_EDIT', 'Edit group');
-define('_AM_SYSTEM_GROUPS_ERROR_DELETE', 'You can not remove this group');
-define('_AM_SYSTEM_GROUPS_ID', 'ID');
-define('_AM_SYSTEM_GROUPS_NAME', 'Group Name');
-define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS', 'Number users by group');
-define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS', '%s user(s)');
-define('_AM_SYSTEM_GROUPS_SUREDEL', 'Are you sure you want to delete this group?');
-define('_AM_SYSTEM_GROUPS_SYSTEMRIGHTS', 'System Admin rights');
+
+define('_AM_SYSTEM_GROUPS_NAV_MANAGER', 'مدیریت گروهها');
+define('_AM_SYSTEM_GROUPS_NAV_LIST', 'لیست گروهها');
+define('_AM_SYSTEM_GROUPS_NAV_ADD', 'اضافه کردن گروه جدید');
+define('_AM_SYSTEM_GROUPS_NAV_EDIT', 'ویرایش گروه');
+define('_AM_SYSTEM_GROUPS_NAV_DELETE', 'حذف گروه');
+// نکات
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_1', '<ul><li>ایجاد گروه جدید با مجوزهای خاص خود.</li><li>ویرایش گروه برای تغییر مجوزها.</li></ul>');
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_2', '<ul><li>تغییر یا ایجاد مجوز برای این گروه، تمام تغییرات بر کاربران این گروه تأثیر خواهد گذاشت.</li></ul>');
+// اطلاعات
+define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', 'مجوزهای دسترسی ماژول');
+define('_AM_SYSTEM_GROUPS_ACTION', 'عملیات');
+define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'مجوزهای مدیریت ماژول');
+define('_AM_SYSTEM_GROUPS_ADD', 'اضافه کردن گروه جدید');
+define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', 'مجوزهای دسترسی بلوک');
+define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', 'بلوک سفارشی');
+define('_AM_SYSTEM_GROUPS_DELETE', 'حذف گروه');
+define('_AM_SYSTEM_GROUPS_DESCRIPTION', 'توضیحات گروه');
+define('_AM_SYSTEM_GROUPS_EDIT', 'ویرایش گروه');
+define('_AM_SYSTEM_GROUPS_ERROR_DELETE', 'شما نمیتوانید این گروه را حذف کنید');
+define('_AM_SYSTEM_GROUPS_ID', 'شناسه');
+define('_AM_SYSTEM_GROUPS_NAME', 'نام گروه');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS', 'تعداد کاربران در گروه');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS', '%s کاربر(ها)');
+define('_AM_SYSTEM_GROUPS_SUREDEL', 'آیا مطمئن هستید که میخواهید این گروه را حذف کنید؟');
+define('_AM_SYSTEM_GROUPS_SYSTEMRIGHTS', 'مجوزهای مدیریت سیستم');
 define('_AM_SYSTEM_GROUPS_DBUPDATED', _AM_SYSTEM_DBUPDATED);

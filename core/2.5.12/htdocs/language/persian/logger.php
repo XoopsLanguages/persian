@@ -25,31 +25,31 @@ defined('XOOPS_ROOT_PATH') || exit('Restricted access');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 define('_LOGGER_DEBUG', 'Debug');
-define('_LOGGER_INCLUDED_FILES', 'Included files');
-define('_LOGGER_FILES', '%s files');
-define('_LOGGER_MEM_USAGE', 'Memory usage');
-define('_LOGGER_MEM_ESTIMATED', '%s [Estimated]');
-define('_LOGGER_NONE', 'None');
-define('_LOGGER_ALL', 'All');
-define('_LOGGER_ERRORS', 'Errors');
-define('_LOGGER_DEPRECATED', 'Deprecated');
-define('_LOGGER_QUERIES', 'Queries');
-define('_LOGGER_BLOCKS', 'Blocks');
-define('_LOGGER_EXTRA', 'Extra');
-define('_LOGGER_TIMERS', 'Timers');
+define('_LOGGER_INCLUDED_FILES', 'فایلهای شامل شده');
+define('_LOGGER_FILES', '%s فایل');
+define('_LOGGER_MEM_USAGE', 'میزان مصرف حافظه');
+define('_LOGGER_MEM_ESTIMATED', '%s [تخمینی]');
+define('_LOGGER_NONE', 'هیچکدام');
+define('_LOGGER_ALL', 'همه');
+define('_LOGGER_ERRORS', 'خطاها');
+define('_LOGGER_DEPRECATED', 'منسوخ شده');
+define('_LOGGER_QUERIES', 'پرس و جوها');
+define('_LOGGER_BLOCKS', 'بلوکها');
+define('_LOGGER_EXTRA', 'اضافی');
+define('_LOGGER_TIMERS', 'زمانسنجها');
 
-define('_LOGGER_TIMETOLOAD', '%s took %s seconds to load.');
+define('_LOGGER_TIMETOLOAD', '%s برای بارگیری %s ثانیه زمان برد.');
 
-define('_LOGGER_TOTAL', 'Total');
+define('_LOGGER_TOTAL', 'کل');
 
-define('_LOGGER_NOT_CACHED', 'Not cached');
-define('_LOGGER_CACHED', 'Cached (regenerates every %s seconds)');
+define('_LOGGER_NOT_CACHED', 'ذخیره نشده');
+define('_LOGGER_CACHED', 'ذخیره شده (هر %s ثانیه بازتولید میشود)');
 
-define('_LOGGER_UNKNOWN', 'Unknown');
-define('_LOGGER_E_USER_NOTICE', 'Notice');
-define('_LOGGER_E_USER_WARNING', 'Warning');
-define('_LOGGER_E_USER_ERROR', 'Error');
-define('_LOGGER_E_NOTICE', 'Notice');
-define('_LOGGER_E_WARNING', 'Warning');
-define('_LOGGER_E_STRICT', 'Strict');
-define('_LOGGER_FILELINE', '%s in file %s line %s');
+define('_LOGGER_UNKNOWN', 'ناشناخته');
+define('_LOGGER_E_USER_NOTICE', 'اطلاع');
+define('_LOGGER_E_USER_WARNING', 'هشدار');
+define('_LOGGER_E_USER_ERROR', 'خطا');
+define('_LOGGER_E_NOTICE', 'اطلاع');
+define('_LOGGER_E_WARNING', 'هشدار');
+define('_LOGGER_E_STRICT', 'سختگیرانه');
+define('_LOGGER_FILELINE', '%s در فایل %s خط %s');

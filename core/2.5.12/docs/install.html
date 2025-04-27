@@ -86,58 +86,44 @@
 <body>
 
 <div class="page">
-<h1>Installing XOOPS</h1>
+    <h1>نصب XOOPS</h1>
 
-<h2>First time installation</h2>
-<h3>Preface:</h3>
+    <h2>نصب برای اولین بار</h2>
+    <h3>مقدمه:</h3>
     <p>
-        <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> is an open-source
-        Object-Oriented Web publishing system written in PHP. It is an ideal tool for
-        developing small to large dynamic community websites, intra company portals, corporate portals, weblogs and much more.
+        <abbr title="سامانه پورتال شیءگرا و توسعهپذیر">XOOPS</abbr> یک سامانه انتشار وب متنباز و شیءگرا است که با زبان PHP نوشته شده است. این ابزار ایدهآلی برای توسعه وبسایتهای پویای کوچک تا بزرگ، پورتالهای درون شرکتی، پورتالهای سازمانی، وبلاگها و موارد بسیار دیگر است.
     </p>
     <p>
-        XOOPS is released under the terms of the
-        <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License (GPL)</a>
-        version 2 or greater, and is free to use and modify.
-        It is free to redistribute as long as you abide by the distribution terms of the GPL.
+        XOOPS تحت شرایط <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">مجوز عمومی همگانی گنو (GPL)</a> نسخه 2 یا بالاتر منتشر شده است و استفاده و تغییر آن رایگان است. توزیع مجدد آن رایگان است به شرطی که از شرایط توزیع GPL پیروی کنید.
     </p>
 
-<h2>Requirements</h2>
+    <h2>نیازمندیها</h2>
     <ul>
-        <li>WWW Server (<a href="http://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external"s>NGINX</a>, IIS, etc)</li>
-        <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 or higher, 7.4+ recommended</li>
-        <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.6 or higher, MySQL 8.0+ recommended</li>
+        <li>وب سرور (<a href="http://www.apache.org/" rel="external">Apache</a>، <a href="https://www.nginx.com/" rel="external"s>NGINX</a>، IIS و غیره)</li>
+        <li><a href="https://www.php.net/" rel="external">PHP</a> نسخه 5.6.0 یا بالاتر، نسخه 7.4+ توصیه میشود</li>
+        <li><a href="https://www.mysql.com/" rel="external">MySQL</a> نسخه 5.6 یا بالاتر، MySQL 8.0+ توصیه میشود</li>
     </ul>
-    <h3>Before you install</h3>
+    <h3>قبل از نصب</h3>
     <ol>
-        <li>Setup WWW server, PHP and database server properly.</li>
-        <li>Prepare a database for your XOOPS site.</li>
-        <li>Prepare user account and grant the user the access to the database.</li>
-        <li>Make the directories and the files writable: %s</li>
-        <li>For security considerations, you are strongly advised to move the two directories below out of <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a> and change the folder names: %s</li>
-        <li>Create (if not already present) and make the directories writable: %s</li>
-        <li>Turn cookie and JavaScript of your browser on.</li>
+        <li>وب سرور، PHP و سرور پایگاه داده را به درستی تنظیم کنید.</li>
+        <li>یک پایگاه داده برای وبسایت XOOPS خود آماده کنید.</li>
+        <li>یک حساب کاربری تهیه کرده و دسترسی کاربر به پایگاه داده را اعطا کنید.</li>
+        <li>پوشهها و فایلها را قابل نوشتن کنید: %s</li>
+        <li>به دلایل امنیتی، اکیداً توصیه میشود دو پوشه زیر را از <a href="http://phpsec.org/projects/guide/3.html" rel="external">مسیر اصلی سند</a> خارج کرده و نام پوشهها را تغییر دهید: %s</li>
+        <li>پوشههای زیر را ایجاد کنید (اگر از قبل وجود ندارند) و آنها را قابل نوشتن کنید: %s</li>
+        <li>کوکی و جاوا اسکریپت مرورگر خود را روشن کنید.</li>
     </ol>
 
-<h2>Installing locally</h2>
-<p>If you are running a local environment for development or testing, make sure that you have the previous
-    requirements met. Once this is done, copy the contents of the <em>htdocs</em> directory (from the XOOPS
-    distribution file) to the root document path of your web environment. Once the files are copied there,
-    you can start the install by pointing you browser to "http://<em>yoursite.com</em>". This will start the install process.
-</p>
+    <h2>نصب به صورت محلی</h2>
+    <p>اگر در حال اجرای یک محیط محلی برای توسعه یا آزمایش هستید، مطمئن شوید که نیازمندیهای قبلی برآورده شدهاند. پس از انجام این کار، محتویات پوشه <em>htdocs</em> (از فایل توزیع XOOPS) را در مسیر اصلی سند وب خود کپی کنید. پس از کپی شدن فایلها در آنجا، میتوانید با اشاره مرورگر خود به "http://<em>yourwebsite.com</em>" نصب را شروع کنید. این کار فرآیند نصب را آغاز خواهد کرد.</p>
 
 
-<h2>Installing on a hosted platform</h2>
-<p>If you are running in a hosted environment, unpack the XOOPS files locally or on the server if you have
-    shell (i.e. SSH) access. Once done, make sure to move or copy all XOOPS files from the <em>htdocs</em>
-    directory to your root web directory (your provider usually provides this location with directions).
-    Once the files are copied there, you can start the install by pointing you browser to
-    "http://<em>yoursite.com</em>". This will start the install process.
-</p>
+    <h2>نصب روی یک پلتفرم میزبانی شده</h2>
+    <p>اگر در یک محیط میزبانی شده اجرا میکنید، فایلهای XOOPS را به صورت محلی یا روی سرور (اگر دسترسی شل یا SSH دارید) از حالت فشرده خارج کنید. پس از انجام این کار، مطمئن شوید که تمام فایلهای XOOPS را از پوشه <em>htdocs</em> به پوشه اصلی وب خود منتقل یا کپی کردهاید (ارائهدهنده شما معمولاً این مکان را به همراه دستورالعملها ارائه میدهد). پس از کپی شدن فایلها در آنجا، میتوانید با اشاره مرورگر خود به "http://<em>yourwebsite.com</em>" نصب را شروع کنید. این کار فرآیند نصب را آغاز خواهد کرد.</p>
 
 
-<h2>Continuing the install</h2>
-<p>Just follow step-by-step instructions in installer.</p>
+    <h2>ادامه نصب</h2>
+    <p>فقط دستورالعملهای گام به گام موجود در نصبکننده را دنبال کنید.</p>
 
 </div>
 </body>

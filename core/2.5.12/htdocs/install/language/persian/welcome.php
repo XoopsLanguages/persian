@@ -4,49 +4,47 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-$content = '
-<p>
-    <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> is an open-source
-    Object-Oriented Web publishing system written in PHP. It is an ideal tool for
-    developing small to large dynamic community websites, intra company portals, corporate portals, weblogs and much more.
-</p>
-<p>
-    XOOPS is released under the terms of the
-    <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU General Public License (GPL)</a>
-    version 2 or greater, and is free to use and modify.
-    It is free to redistribute as long as you abide by the distribution terms of the GPL.
-</p>
-<h3>Requirements</h3>
-<ul>
-    <li>WWW Server (<a href="https://www.apache.org/" rel="external">Apache</a>, <a href="https://www.nginx.com/" rel="external">NGINX</a>, IIS, etc)</li>
-    <li><a href="https://www.php.net/" rel="external">PHP</a> 5.6.0 or higher, 7.3+ recommended</li>
-    <li><a href="https://www.mysql.com/" rel="external">MySQL</a> 5.5 or higher, 5.7+ recommended </li>
-</ul>
-<h3>Before you install</h3>
-<ol>
-    <li>Setup WWW server, PHP and database server properly.</li>
-    <li>Prepare a database for your XOOPS site.</li>
-    <li>Prepare user account and grant the user the access to the database.</li>
-    <li>Make these directories and files writable: %s</li>
-    <li>For security considerations, you are strongly advised to move the two directories below out of <a href="https://privacyaustralia.net/phpsec/projects/guide/php-security-guide-databases-and-sql/" rel="external">document root</a> and change the folder names: %s</li>
-    <li>Create (if not already present) and make these directories writable: %s</li>
-    <li>Turn cookie and JavaScript of your browser on.</li>
-</ol>
-<h3>Special Notes</h3>
-<p>Some specific system software combinations may require some additional configurations to work
- with XOOPS. If any of these topics apply to your environment, please see the full
- <a href="https://xoops.gitbook.io/xoops-install-upgrade/" rel="external">XOOPS
- installation manual</a> for more information.
-</p>
-<p>MySQL 8.0 is not supported in all PHP versions. Even in the supported versions, issues with the
- PHP <em>mysqlnd</em> library may require the MySQL server&apos;s <em>default-authentication-plugin</em>
- to be set to <em>mysql_native_password</em> to function correctly.
-</p>
-<p>SELinux enabled systems (such as CentOS and RHEL) may require changes to the security context
- for XOOPS directories in addition to the normal file permissions to make directories writable.
- Consult your system documentation and/or systems administrator.
-</p>
-';
+define('LICENSE_NOT_WRITEABLE', 'مجوز %s است. <br><span style="color:#ff0000;">لطفاً فایل ../include/license.php را قابل نوشتن کنید</span>');
+define('LICENSE_IS_WRITEABLE', 'مجوز %s است');
+define('_INSTALL_WEBMASTER', 'مدیران وب');
+define('_INSTALL_WEBMASTERD', 'مدیران وبسایت اینجا');
+define('_INSTALL_REGUSERS', 'کاربران ثبتنام شده');
+define('_INSTALL_REGUSERSD', 'گروه کاربران ثبتنام شده');
+define('_INSTALL_ANONUSERS', 'کاربران ناشناس');
+define('_INSTALL_ANONUSERSD', 'گروه کاربران ناشناس');
+/**
+ * انواع گروههای جدید
+ */
+define('_INSTALL_BANNEDUSERS', 'کاربران ممنوع شده');
+define('_INSTALL_BANNEDUSERSD', 'گروه کاربران ممنوع شده');
+define('_INSTALL_MODERATORUSERS', 'مدیران');
+define('_INSTALL_MODERATORUSERSD', 'اینها مدیران وبسایت شما هستند');
+define('_INSTALL_SUBMITTERUSERS', 'ارسالکنندگان');
+define('_INSTALL_SUBMITTERUSERSD', 'این گروه میتواند مقالاتی را به وبسایت شما ارسال کند');
+define('_INSTALL_DEVELOPEUSERS', 'توسعهدهنده');
+define('_INSTALL_DEVELOPEUSERSD', 'این کاربر دارای امتیازات توسعهدهنده است و میتواند پیامهای اشکالزدایی توسعهدهنده را مشاهده کند');
+define('_INSTALL_L165', 'سایت در حال حاضر برای تعمیر و نگهداری بسته است. لطفاً بعداً دوباره مراجعه کنید.');
+define('_INSTALL_ANON', 'ناشناس');
+define('_INSTALL_DISCLMR', 'در حالی که مدیران و ناظران این سایت سعی خواهند کرد هرگونه محتوای ناخوشایند را هر چه سریعتر حذف یا ویرایش کنند،
+اما بررسی هر پیام غیرممکن است. بنابراین شما اذعان میکنید که تمام پستهای
+ارسالشده به این سایت نظرات و دیدگاههای نویسنده را بیان میکند و نه مدیران، ناظران یا مدیر وبسایت (مگر پستهایی که توسط این افراد باشد)
+و بنابراین هیچگونه مسئولیتی نخواهند داشت.
+
+شما موافقت میکنید که هیچگونه محتوای توهینآمیز، فحشآلود، زننده، افترا، نفرتانگیز،
+تهدیدآمیز، جنسی یا هرگونه محتوای دیگری که ممکن است قوانین قابل اجرا را نقض کند، ارسال نکنید.
+این کار ممکن است منجر به ممنوعیت فوری و دائم شما (و اطلاعرسانی به سرویسدهنده شما) شود.
+آدرس IP تمام پستها برای کمک به اجرای این شرایط ضبط میشود.
+ایجاد حسابهای متعدد برای یک کاربر مجاز نیست. شما موافقت میکنید که مدیر وبسایت،
+مدیران و ناظران این سایت حق دارند هر موضوعی را در هر زمان که صلاح بدانند حذف، ویرایش، جابهجا یا بسته کنند.
+به عنوان یک کاربر شما موافقت میکنید که هر اطلاعاتی که وارد کردهاید در یک پایگاه داده ذخیره شود.
+در حالی که این اطلاعات بدون رضایت شما به هیچ شخص ثالثی فاش نخواهد شد، مدیر وبسایت،
+مدیران و ناظران نمیتوانند مسئول هرگونه تلاش هکری باشند که منجر به نقض دادهها شود.
+
+این سیستم سایت از کوکیها برای ذخیرهسازی اطلاعات بر روی رایانه محلی شما استفاده میکند.
+این کوکیها هیچیک از اطلاعاتی که وارد کردهاید را شامل نمیشوند، بلکه فقط برای بهبود تجربه مشاهده شما هستند.
+آدرس ایمیل فقط برای تأیید جزئیات ثبتنام و رمز عبور شما (و ارسال رمز عبور جدید در صورت فراموشی) استفاده میشود.
+
+با کلیک بر روی دکمه ثبتنام، شما موافقت میکنید که تحت این شرایط قرار بگیرید.');
 
 return $content;
 

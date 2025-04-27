@@ -4,38 +4,37 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_XOOPS_SMARTY4_MIGRATION', 'XOOPS Smarty4 Migration');
+define('_XOOPS_SMARTY4_MIGRATION', 'مهاجرت به Smarty 4 در XOOPS');
 
-define('_XOOPS_SMARTY4_SCANNER_RESULTS', 'Scanner Results');
-define('_XOOPS_SMARTY4_SCANNER_RUN', 'Run Scan');
-define('_XOOPS_SMARTY4_SCANNER_END', 'Exit Scanner');
-define('_XOOPS_SMARTY4_SCANNER_RULE', 'Rule');
-define('_XOOPS_SMARTY4_SCANNER_MATCH', 'Match');
-define('_XOOPS_SMARTY4_SCANNER_FILE', 'File');
-define('_XOOPS_SMARTY4_SCANNER_FIXED', 'Fix Count');
-define('_XOOPS_SMARTY4_SCANNER_MANUAL_REVIEW', 'Manual review required');
-define('_XOOPS_SMARTY4_SCANNER_NOT_WRITABLE', 'Not Writeable');
+define('_XOOPS_SMARTY4_SCANNER_RESULTS', 'نتایج اسکن');
+define('_XOOPS_SMARTY4_SCANNER_RUN', 'اجرای اسکن');
+define('_XOOPS_SMARTY4_SCANNER_END', 'خروج از اسکنر');
+define('_XOOPS_SMARTY4_SCANNER_RULE', 'قانون');
+define('_XOOPS_SMARTY4_SCANNER_MATCH', 'تطابق');
+define('_XOOPS_SMARTY4_SCANNER_FILE', 'فایل');
+define('_XOOPS_SMARTY4_SCANNER_FIXED', 'تعداد رفعشده');
+define('_XOOPS_SMARTY4_SCANNER_MANUAL_REVIEW', 'نیاز به بررسی دستی');
+define('_XOOPS_SMARTY4_SCANNER_NOT_WRITABLE', 'غیر قابل نوشتن');
 
-define('_XOOPS_SMARTY4_RESCAN_OPTIONS', 'Rescan Options');
+define('_XOOPS_SMARTY4_RESCAN_OPTIONS', 'گزینههای اسکن مجدد');
 
-define('_XOOPS_SMARTY4_FIX_BUTTON', 'Click the "Yes" checkbox below and then click the Run Scan button to try to automatically fix any issues found.');
-define('_XOOPS_SMARTY4_SCANNER_MARK_COMPLETE', 'Mark Complete');
+define('_XOOPS_SMARTY4_FIX_BUTTON', 'کادر "بله" را در زیر علامت بزنید و سپس دکمه اجرای اسکن را کلیک کنید تا به طور خودکار مشکلات یافتشده رفع شوند.');
+define('_XOOPS_SMARTY4_SCANNER_MARK_COMPLETE', 'علامتگذاری به عنوان تکمیلشده');
 
-define('_XOOPS_SMARTY4_TEMPLATE_DIR', 'Template Directory (optional)');
-define('_XOOPS_SMARTY4_TEMPLATE_EXT', 'Template Extension (optional)');
-
+define('_XOOPS_SMARTY4_TEMPLATE_DIR', 'پوشه قالب (اختیاری)');
+define('_XOOPS_SMARTY4_TEMPLATE_EXT', 'پسوند قالب (اختیاری)');
 
 define(
     '_XOOPS_SMARTY4_SCANNER_OFFER',
     <<<'EOT'
-<h3>XOOPS 2.5.12 introduces a significant change: Smarty 4</h3>
+<h3>XOOPS 2.5.12 یک تغییر مهم معرفی میکند: Smarty 4</h3>
 
-<p>Unfortunately, this change may potentially disrupt some older themes. Therefore, before proceeding with the upgrade, please ensure that you follow these steps:
+<p>متأسفانه، این تغییر ممکن است برخی از قالبهای قدیمیتر را مختل کند. بنابراین، قبل از ادامه ارتقا، لطفاً این مراحل را دنبال کنید:
 
-<li>Run preflight.php to check for any outdated themes or module templates.</li>
-<li>If any issues are identified, consult this document to understand the necessary modifications before proceeding with the upgrade.</li>
-<li>After making the required changes, run preflight.php again.</li>
-<li>If there are no more issues, you can begin the upgrade process.</li>
+<li>preflight.php را اجرا کنید تا هرگونه قالب قدیمی یا الگوهای ماژول بررسی شوند.</li>
+<li>اگر مشکلی شناسایی شد، این سند را مطالعه کنید تا تغییرات لازم قبل از ادامه ارتقا را درک کنید.</li>
+<li>پس از انجام تغییرات مورد نیاز، preflight.php را دوباره اجرا کنید.</li>
+<li>اگر دیگر مشکلی وجود نداشته باشد، میتوانید فرآیند ارتقا را آغاز کنید.</li>
 </p>
 EOT,
 );

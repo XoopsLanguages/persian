@@ -5,38 +5,39 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 //Nav
-define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER', 'Templates Manager');
-define('_AM_SYSTEM_TEMPLATES_NAV_MAIN', 'Templates Manager');
+define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER', 'مدیریت قالبها');
+define('_AM_SYSTEM_TEMPLATES_NAV_MAIN', 'مدیریت قالبها');
 //Tips
 define('_AM_SYSTEM_TEMPLATES_NAV_TIPS', '
 <ul>
-<li>Edit theme and modules templates, stylesheet online.</li>
-<li>Generate all override modules templates.</li>
-<li>If you force generation, this will erase all previous modification.</li>
+<li>ویرایش آنلاین قالبهای پوسته و ماژولها، فایل استایل.</li>
+<li>تولید تمام قالبهای ماژولهای بازنویسی شده.</li>
+<li>اگر تولید اجباری کنید، تمام تغییرات قبلی پاک خواهند شد.</li>
 </ul>
 ');
-define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'Your themes :');
-define('_AM_SYSTEM_TEMPLATES_GENERATE', 'Generated surcharge');
-define('_AM_SYSTEM_TEMPLATES_SELECT_THEME', 'Select theme');
-define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED', 'Forced file generation');
-define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED', 'Files generated');
-define('_AM_SYSTEM_TEMPLATES_NOT_CREATED', 'No files created');
-define('_AM_SYSTEM_TEMPLATES_SAVE', 'Save');
-define('_AM_SYSTEM_TEMPLATES_RESTORE', 'Restore');
-define('_AM_SYSTEM_TEMPLATES_CANCEL', 'Cancel');
-define('_AM_SYSTEM_TEMPLATES_ERROR', 'Error');
-define('_AM_SYSTEM_TEMPLATES_EDIT', 'Edit of :');
-define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES', 'Select Module');
-define('_AM_SYSTEM_TEMPLATES_MODULES', 'Modules : ');
-define('_AM_SYSTEM_TEMPLATES_FILES', 'Files');
-define('_AM_SYSTEM_TEMPLATES_EMPTY_FILE', 'Empty file');
-define('_AM_SYSTEM_TEMPLATES_TYPES', 'Types');
-define('_AM_SYSTEM_TEMPLATES_STATUS', 'Status');
-define('_AM_SYSTEM_TEMPLATES_TEMPLATES', 'Templates');
-define('_AM_SYSTEM_TEMPLATES_BLOCKS', 'Blocks');
-define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES', 'Select Templates');
-define('_AM_SYSTEM_TEMPLATES_ALL_MODULES', 'All modules');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_OK', 'Successfully restored');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK', 'Failed to restore');
-define('_AM_SYSTEM_TEMPLATES_SET', 'Choose Template');
+define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES', 'پوستههای شما :');
+define('_AM_SYSTEM_TEMPLATES_GENERATE', 'تولید سر بار');
+define('_AM_SYSTEM_TEMPLATES_SELECT_THEME', 'انتخاب پوسته');
+define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED', 'تولید اجباری فایل');
+define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED', 'فایلها تولید شدند');
+define('_AM_SYSTEM_TEMPLATES_NOT_CREATED', 'هیچ فایلی ایجاد نشد');
+define('_AM_SYSTEM_TEMPLATES_SAVE', 'ذخیره');
+define('_AM_SYSTEM_TEMPLATES_RESTORE', 'بازگردانی');
+define('_AM_SYSTEM_TEMPLATES_CANCEL', 'انصراف');
+define('_AM_SYSTEM_TEMPLATES_ERROR', 'خطا');
+define('_AM_SYSTEM_TEMPLATES_EDIT', 'ویرایش :');
+define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES', 'انتخاب ماژول');
+define('_AM_SYSTEM_TEMPLATES_MODULES', 'ماژولها : ');
+define('_AM_SYSTEM_TEMPLATES_FILES', 'فایلها');
+define('_AM_SYSTEM_TEMPLATES_EMPTY_FILE', 'فایل خالی');
+define('_AM_SYSTEM_TEMPLATES_TYPES', 'انواع');
+define('_AM_SYSTEM_TEMPLATES_STATUS', 'وضعیت');
+define('_AM_SYSTEM_TEMPLATES_TEMPLATES', 'قالبها');
+define('_AM_SYSTEM_TEMPLATES_BLOCKS', 'بلوکها');
+define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES', 'انتخاب قالبها');
+define('_AM_SYSTEM_TEMPLATES_ALL_MODULES', 'همه ماژولها');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_OK', 'با موفقیت بازگردانی شد');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK', 'بازگردانی با شکست مواجه شد');
+define('_AM_SYSTEM_TEMPLATES_SET', 'انتخاب قالب');

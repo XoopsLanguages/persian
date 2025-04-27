@@ -1,10 +1,11 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-You email address at {SITENAME} has been successfully changed. 
+آدرس ایمیل شما در {SITENAME} با موفقیت تغییر یافت.
 
-If you have any question, please feel free to contact us.
+اگر سوالی دارید، لطفاً با ما تماس بگیرید.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+مدیر وبسایت
 {ADMINMAIL}
+IL}

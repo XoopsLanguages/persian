@@ -4,43 +4,43 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name readpmsg.php  %%%%%
-define('_PM_DELETED', 'Your message(s) has been deleted');
-define('_PM_PRIVATEMESSAGE', 'Private Messages');
-define('_PM_INBOX', 'Inbox');
-define('_PM_FROM', 'From');
-define('_PM_YOUDONTHAVE', 'You don\'t have any private messages');
-define('_PM_FROMC', 'From: ');
-define('_PM_SENTC', 'Sent: '); // The date of message sent
-define('_PM_PROFILE', 'Profile');
+define('_PM_DELETED', 'پیام(های) شما حذف شد');
+define('_PM_PRIVATEMESSAGE', 'پیامهای خصوصی');
+define('_PM_INBOX', 'صندوق ورودی');
+define('_PM_FROM', 'از طرف');
+define('_PM_YOUDONTHAVE', 'شما هیچ پیام خصوصی ندارید');
+define('_PM_FROMC', 'از طرف: ');
+define('_PM_SENTC', 'ارسال شده: '); // The date of message sent
+define('_PM_PROFILE', 'پروفایل');
 // %s is a username
-define('_PM_PREVIOUS', 'Previous Message');
-define('_PM_NEXT', 'Next Message');
+define('_PM_PREVIOUS', 'پیام قبلی');
+define('_PM_NEXT', 'پیام بعدی');
 //%%%%%%    File Name pmlite.php    %%%%%
-define('_PM_SORRY', 'Sorry! You are not a registered user.');
-define('_PM_REGISTERNOW', 'Register Now!');
-define('_PM_GOBACK', 'Go Back');
-define('_PM_USERNOEXIST', 'The selected user doesn\'t exist in the database.');
-define('_PM_PLZTRYAGAIN', 'Please check the name and try again.');
-define('_PM_MESSAGEPOSTED', 'Your message has been posted');
-define('_PM_CLICKHERE', 'You can click here to view your private messages');
-define('_PM_ORCLOSEWINDOW', 'Or click here to close this window.');
-define('_PM_USERWROTE', '%s wrote:');
-define('_PM_TO', 'To: ');
-define('_PM_SUBJECTC', 'Subject: ');
-define('_PM_MESSAGEC', 'Message: ');
-define('_PM_CLEAR', 'Clear');
-define('_PM_CANCELSEND', 'Cancel Send');
-define('_PM_SUBMIT', 'Submit');
+define('_PM_SORRY', 'متاسفیم! شما کاربر ثبت نام شده نیستید.');
+define('_PM_REGISTERNOW', 'ثبت نام کنید!');
+define('_PM_GOBACK', 'بازگشت');
+define('_PM_USERNOEXIST', 'کاربر انتخاب شده در پایگاه داده وجود ندارد.');
+define('_PM_PLZTRYAGAIN', 'لطفاً نام را بررسی کرده و دوباره تلاش کنید.');
+define('_PM_MESSAGEPOSTED', 'پیام شما ارسال شد');
+define('_PM_CLICKHERE', 'برای مشاهده پیامهای خصوصی خود میتوانید اینجا کلیک کنید');
+define('_PM_ORCLOSEWINDOW', 'یا برای بستن این پنجره اینجا کلیک کنید.');
+define('_PM_USERWROTE', '%s نوشت:');
+define('_PM_TO', 'به: ');
+define('_PM_SUBJECTC', 'موضوع: ');
+define('_PM_MESSAGEC', 'پیام: ');
+define('_PM_CLEAR', 'پاک کردن');
+define('_PM_CANCELSEND', 'لغو ارسال');
+define('_PM_SUBMIT', 'ارسال');
 //%%%%%%    File Name viewpmsg.php  %%%%%
-define('_PM_SUBJECT', 'Subject');
-define('_PM_DATE', 'Date');
-define('_PM_NOTREAD', 'Not Read');
-define('_PM_SEND', 'Send');
-define('_PM_DELETE', 'Delete');
-define('_PM_REPLY', 'Reply');
-define('_PM_PLZREG', 'Please register first to send private messages!');
-define('_PM_ONLINE', 'Online');
+define('_PM_SUBJECT', 'موضوع');
+define('_PM_DATE', 'تاریخ');
+define('_PM_NOTREAD', 'خوانده نشده');
+define('_PM_SEND', 'ارسال');
+define('_PM_DELETE', 'حذف');
+define('_PM_REPLY', 'پاسخ');
+define('_PM_PLZREG', 'لطفاً برای ارسال پیامهای خصوصی ابتدا ثبت نام کنید!');
+define('_PM_ONLINE', 'آنلاین');
 //XOOPS 2.5.2
-define('_PM_SURE_TO_DELETE', 'Are you sure you want to delete these message(s)?');
+define('_PM_SURE_TO_DELETE', 'آیا برای حذف این پیام(ها) مطمئن هستید؟');
 //XOOPS 2.5.5
-define('_PM_READ', 'Already Read');
+define('_PM_READ', 'قبلاً خوانده شده');

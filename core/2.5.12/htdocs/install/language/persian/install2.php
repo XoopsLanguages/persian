@@ -4,52 +4,44 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 // License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br><span style="color:#ff0000;">Make ../include/license.php Writable</span>');
-define('LICENSE_IS_WRITEABLE', 'License is %s');
-define('_INSTALL_WEBMASTER', 'Webmasters');
-define('_INSTALL_WEBMASTERD', 'Webmasters of this site');
-define('_INSTALL_REGUSERS', 'Registered Users');
-define('_INSTALL_REGUSERSD', 'Registered Users Group');
-define('_INSTALL_ANONUSERS', 'Anonymous Users');
-define('_INSTALL_ANONUSERSD', 'Anonymous Users Group');
+define('LICENSE_NOT_WRITEABLE', 'مجوز %s است. <br><span style="color:#ff0000;">لطفاً فایل ../include/license.php را قابل نوشتن کنید</span>');
+define('LICENSE_IS_WRITEABLE', 'مجوز %s است');
+define('_INSTALL_WEBMASTER', 'مدیران وب');
+define('_INSTALL_WEBMASTERD', 'مدیران وبسایت اینجا');
+define('_INSTALL_REGUSERS', 'کاربران ثبتنام شده');
+define('_INSTALL_REGUSERSD', 'گروه کاربران ثبتنام شده');
+define('_INSTALL_ANONUSERS', 'کاربران ناشناس');
+define('_INSTALL_ANONUSERSD', 'گروه کاربران ناشناس');
 /**
- * New Group types
+ * انواع گروههای جدید
  */
-define('_INSTALL_BANNEDUSERS', 'Banned Users');
-define('_INSTALL_BANNEDUSERSD', 'Banned user group');
-define('_INSTALL_MODERATORUSERS', 'Moderators');
-define('_INSTALL_MODERATORUSERSD', 'These are Moderators for your website');
-define('_INSTALL_SUBMITTERUSERS', 'Submitters');
-define('_INSTALL_SUBMITTERUSERSD', 'This group can submit articles to your website');
-define('_INSTALL_DEVELOPEUSERS', 'Developer');
-define('_INSTALL_DEVELOPEUSERSD', 'This user has developer privileges and can see developer debugging messages.');
-define('_INSTALL_L165', 'The site is currently closed for maintenance. Please come back later.');
-define('_INSTALL_ANON', 'Anonymous');
-define('_INSTALL_DISCLMR', 'While the administrators and moderators of this site will attempt to remove
-or edit any generally objectionable material as quickly as possible, it is
-impossible to review every message. Therefore you acknowledge that all posts
-made to this site express the views and opinions of the author and not the
-administrators, moderators or webmaster (except for posts by these people)
-and hence will not be held liable.
+define('_INSTALL_BANNEDUSERS', 'کاربران ممنوع شده');
+define('_INSTALL_BANNEDUSERSD', 'گروه کاربران ممنوع شده');
+define('_INSTALL_MODERATORUSERS', 'مدیران');
+define('_INSTALL_MODERATORUSERSD', 'اینها مدیران وبسایت شما هستند');
+define('_INSTALL_SUBMITTERUSERS', 'ارسالکنندگان');
+define('_INSTALL_SUBMITTERUSERSD', 'این گروه میتواند مقالاتی را به وبسایت شما ارسال کند');
+define('_INSTALL_DEVELOPEUSERS', 'توسعهدهنده');
+define('_INSTALL_DEVELOPEUSERSD', 'این کاربر دارای امتیازات توسعهدهنده است و میتواند پیامهای اشکالزدایی توسعهدهنده را مشاهده کند');
+define('_INSTALL_L165', 'سایت در حال حاضر برای تعمیر و نگهداری بسته است. لطفاً بعداً دوباره مراجعه کنید.');
+define('_INSTALL_ANON', 'ناشناس');
+define('_INSTALL_DISCLMR', 'در حالی که مدیران و ناظران این سایت سعی خواهند کرد هرگونه محتوای ناخوشایند را هر چه سریعتر حذف یا ویرایش کنند،
+اما بررسی هر پیام غیرممکن است. بنابراین شما اذعان میکنید که تمام پستهای
+ارسالشده به این سایت نظرات و دیدگاههای نویسنده را بیان میکند و نه مدیران، ناظران یا مدیر وبسایت (مگر پستهایی که توسط این افراد باشد)
+و بنابراین هیچگونه مسئولیتی نخواهند داشت.
 
-You agree not to post any abusive, obscene, vulgar, slanderous, hateful,
-threatening, sexually-orientated or any other material that may violate any
-applicable laws. Doing so may lead to you being immediately and permanently
-banned (and your service provider being informed). The IP address of all
-posts is recorded to aid in enforcing these conditions. Creating multiple
-accounts for a single user is not allowed. You agree that the webmaster,
-administrator and moderators of this site have the right to remove, edit,
-move or close any topic at any time should they see fit. As a user you agree
-to any information you have entered above being stored in a database. While
-this information will not be disclosed to any third party without your
-consent the webmaster, administrator and moderators cannot be held
-responsible for any hacking attempt that may lead to the data being
-compromised.
+شما موافقت میکنید که هیچگونه محتوای توهینآمیز، فحشآلود، زننده، افترا، نفرتانگیز،
+تهدیدآمیز، جنسی یا هرگونه محتوای دیگری که ممکن است قوانین قابل اجرا را نقض کند، ارسال نکنید.
+این کار ممکن است منجر به ممنوعیت فوری و دائم شما (و اطلاعرسانی به سرویسدهنده شما) شود.
+آدرس IP تمام پستها برای کمک به اجرای این شرایط ضبط میشود.
+ایجاد حسابهای متعدد برای یک کاربر مجاز نیست. شما موافقت میکنید که مدیر وبسایت،
+مدیران و ناظران این سایت حق دارند هر موضوعی را در هر زمان که صلاح بدانند حذف، ویرایش، جابهجا یا بسته کنند.
+به عنوان یک کاربر شما موافقت میکنید که هر اطلاعاتی که وارد کردهاید در یک پایگاه داده ذخیره شود.
+در حالی که این اطلاعات بدون رضایت شما به هیچ شخص ثالثی فاش نخواهد شد، مدیر وبسایت،
+مدیران و ناظران نمیتوانند مسئول هرگونه تلاش هکری باشند که منجر به نقض دادهها شود.
 
-This site system uses cookies to store information on your local computer.
-These cookies do not contain any of the information you have entered above,
-they serve only to improve your viewing pleasure. The email address is used
-only for confirming your registration details and password (and for sending
-new passwords should you forget your current one).
+این سیستم سایت از کوکیها برای ذخیرهسازی اطلاعات بر روی رایانه محلی شما استفاده میکند.
+این کوکیها هیچیک از اطلاعاتی که وارد کردهاید را شامل نمیشوند، بلکه فقط برای بهبود تجربه مشاهده شما هستند.
+آدرس ایمیل فقط برای تأیید جزئیات ثبتنام و رمز عبور شما (و ارسال رمز عبور جدید در صورت فراموشی) استفاده میشود.
 
-By clicking Register below you agree to be bound by these conditions.');
+با کلیک بر روی دکمه ثبتنام، شما موافقت میکنید که تحت این شرایط قرار بگیرید.');

@@ -1,62 +1,60 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="Back to the Administration of Profile"> Profile <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the Administration of Profile"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">DESCRIPTION</h4>
+    <h1 class="head">راهنما: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/profile/admin/index.php" title="بازگشت به مدیریت پروفایل"> پروفایل <img src="<{xoAdminIcons 'home.png'}>" alt="بازگشت به مدیریت پروفایل"/></a></h1>
+    <h4 class="odd">توضیحات</h4>
 
-    <p class="even">The Profile module is for managing custom user profile fields.</p>
-    <h4 class="odd">INSTALL/UNINSTALL</h4>
+    <p class="even">ماژول پروفایل برای مدیریت فیلدهای سفارشی پروفایل کاربران است.</p>
+    <h4 class="odd">نصب/حذف</h4>
 
-    <p>No special measures necessary, follow the standard installation process – extract the /profile folder into the ../modules directory. Install the module through Admin -> System Module -> Modules.</p>
+    <p>هیچ اقدام خاصی لازم نیست، مراحل نصب استاندارد را دنبال کنید - پوشه /profile را در دایرکتوری ../modules استخراج کنید. ماژول را از طریق مدیریت -> ماژول سیستم -> ماژولها نصب کنید.</p>
 
-    <p>Detailed instructions on installing modules are available in the <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="XOOPS Operations Manual">XOOPS Operations Manual</a> <br><br></p>
-    <h4 class="odd">OPERATING INSTRUCTIONS</h4>
+    <p>دستورالعملهای دقیق در مورد نصب ماژولها در <a href="https://www.gitbook.com/book/xoops/xoops-operations-guide/" target="_blank" title="راهنمای عملیات XOOPS">راهنمای عملیات XOOPS</a> موجود است.<br><br></p>
+    <h4 class="odd">دستورالعملهای عملکرد</h4>
 
-    <p class="even">To set up this module you need to:</p>
+    <p class="even">برای تنظیم این ماژول، باید:</p>
     <ul>
-        <li>Configure your preferences for the module (see ‘Preferences’) and optionally the Profile block if you intend to use it (see ‘Blocks’).</li>
-        <li>Edit existing Categories or add new ones.</li>
-        <li>Edit existing Fields or add new ones. Here you can specify which fields will be visible in which category, and if they will be visible during user registration.</li>
-        <li>Define the order of Registration steps.</li>
-        <li>And finally, you can set permissions for individual fields - which ones are editable, which ones are searchable.<br><br></li>
+        <li>تنظیمات برگزیده خود را برای ماژول پیکربندی کنید (به "تنظیمات برگزیده" مراجعه کنید) و در صورت تمایل بلوک پروفایل را نیز پیکربندی کنید (به "بلوکها" مراجعه کنید).</li>
+        <li>ویرایش دستههای موجود یا افزودن دستههای جدید.</li>
+        <li>ویرایش فیلدهای موجود یا افزودن فیلدهای جدید. در اینجا میتوانید مشخص کنید که کدام فیلدها در کدام دسته قابل مشاهده خواهند بود و آیا در هنگام ثبت نام کاربر قابل مشاهده خواهند بود یا خیر.</li>
+        <li>تعیین ترتیب مراحل ثبت نام.</li>
+        <li>و در نهایت، میتوانید مجوزهای مربوط به فیلدهای فردی را تنظیم کنید - کدام فیلدها قابل ویرایش هستند، کدام فیلدها قابل جستجو هستند.<br><br></li>
     </ul>
-    <h4 class="odd">Anti-Spam measures</h4>
+    <h4 class="odd">اقدامات ضد هرزنامه</h4>
 
-    <p class="even">To minimize spam registrations, do the following:</p>
+    <p class="even">برای به حداقل رساندن ثبت نامهای هرزنامه، مراحل زیر را انجام دهید:</p>
 
     <ul>
-        <li> go to the Protector module in Admin, go to Preferences, and then at the bottom, at this option:
+        <li>به ماژول Protector در قسمت مدیریت بروید، به تنظیمات برگزیده بروید و سپس در پایین، این گزینه را پیدا کنید:
 
             "Stop Forum Spam"
-            Checks POST data against spammers registered on www.stopforumspam.com database. <br>
-            Set it to "Ban the IP (no limit)"
+            دادههای POST را در برابر اسپمرهای ثبت شده در پایگاه داده www.stopforumspam.com بررسی میکند.<br>
+            آن را روی "Ban the IP (no limit)" تنظیم کنید.
         </li>
         <br>
 
-        <li> in /class/captcha/config.php, make sure that the mode is set as "text":<br><br>
+        <li>در فایل /class/captcha/config.php، مطمئن شوید که حالت روی "text" تنظیم شده است:<br><br>
 
-    <span style="font-style: italic;">     return $config = array(<br>
-    'disabled' => false, // Disable CAPTCHA<br>
-    'mode' => 'text', // default mode, you can choose 'text', 'image', 'recaptcha'(requires api key)<br>
-    'name' => 'xoopscaptcha', // captcha name<br>
-    'skipmember' => true, // Skip CAPTCHA check for members<br>
-    'maxattempts' => 10, // Maximum attempts for each session<br>
+            <span style="font-style: italic;">     return $config = array(<br>
+    'disabled' => false, // غیرفعال کردن CAPTCHA<br>
+    'mode' => 'text', // حالت پیشفرض، میتوانید 'text'، 'image'، 'recaptcha' (نیاز به کلید API دارد) را انتخاب کنید<br>
+    'name' => 'xoopscaptcha', // نام کپچا<br>
+    'skipmember' => true, // رد کردن بررسی CAPTCHA برای اعضا<br>
+    'maxattempts' => 10, // حداکثر تلاش برای هر جلسه<br>
     );</span></li>
         <br>
 
-        <li> In the Profile module, go to Admin and in the Basic step located at:<br>
+        <li>در ماژول Profile، به قسمت مدیریت بروید و در مرحله Basic واقع در:<br>
 
             /modules/profile/admin/step.php?id=1<br>
 
-            set the "Save after stop" to "No"
+            گزینه "Save after stop" را روی "No" تنظیم کنید.
         </li>
         <br><br>
 
-        <li> In Profile Preferences, set the "Use Captcha after the second Registration step" Option to "Yes" (it is the default)</li>
+        <li>در تنظیمات برگزیده Profile، گزینه "Use Captcha after the second Registration step" را روی "Yes" تنظیم کنید (مقدار پیشفرض است).</li>
         <br>
         <ul>
 
-            <h4 class="odd">TUTORIAL</h4>
+            <h4 class="odd">آموزش</h4>
 
-            <p class="even">Tutorial coming soon.<br></p>
-            <!-- -----Help Content ---------- -->
+            <p class="even">آموزش به زودی ارائه خواهد شد.<br></p>
 </div>

@@ -5,86 +5,87 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 // Navigation
-define('_AM_SYSTEM_BLOCKS_ADMIN', 'Blocks Administration');
-define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'Manage');
-define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'Add a new block');
-define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Edit a block');
-define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Clone a block');
+define('_AM_SYSTEM_BLOCKS_ADMIN', 'مدیریت بلوکها');
+define('_AM_SYSTEM_BLOCKS_MANAGMENT', 'مدیریت');
+define('_AM_SYSTEM_BLOCKS_ADDBLOCK', 'افزودن بلوک جدید');
+define('_AM_SYSTEM_BLOCKS_EDITBLOCK', 'ویرایش بلوک');
+define('_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'تکثیر بلوک');
 // Forms
-define('_AM_SYSTEM_BLOCKS_CUSTOM', 'Custom Block');
-define('_AM_SYSTEM_BLOCKS_TYPES', 'All types');
-define('_AM_SYSTEM_BLOCKS_GENERATOR', 'Modules');
-define('_AM_SYSTEM_BLOCKS_GROUP', 'Groups');
-define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'Page');
-define('_AM_SYSTEM_BLOCKS_DISPLAY', 'Display block ');
-define('_AM_SYSTEM_BLOCKS_HIDE', 'Hide block ');
-define('_AM_SYSTEM_BLOCKS_CLONE', 'Clone');
-define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Top Left');
-define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Top Center');
-define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Top Right');
-define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Right');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Bottom Left');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Bottom Center');
-define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Bottom Right');
+define('_AM_SYSTEM_BLOCKS_CUSTOM', 'بلوک سفارشی');
+define('_AM_SYSTEM_BLOCKS_TYPES', 'همه انواع');
+define('_AM_SYSTEM_BLOCKS_GENERATOR', 'ماژولها');
+define('_AM_SYSTEM_BLOCKS_GROUP', 'گروهها');
+define('_AM_SYSTEM_BLOCKS_SVISIBLEIN', 'صفحه');
+define('_AM_SYSTEM_BLOCKS_DISPLAY', 'نمایش بلوک ');
+define('_AM_SYSTEM_BLOCKS_HIDE', 'مخفی کردن بلوک ');
+define('_AM_SYSTEM_BLOCKS_CLONE', 'تکثیر');
+define('_AM_SYSTEM_BLOCKS_SIDELEFT', 'چپ');
+define('_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'بالا چپ');
+define('_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'بالا وسط');
+define('_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'بالا راست');
+define('_AM_SYSTEM_BLOCKS_SIDERIGHT', 'راست');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'پایین چپ');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'پایین وسط');
+define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'پایین راست');
 
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT', 'پایین برگه چپ');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER', 'پایین برگه وسط');
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT', 'پایین برگه راست');
 
-define('_AM_SYSTEM_BLOCKS_ADD', 'Add Block');
-define('_AM_SYSTEM_BLOCKS_MANAGE', 'Manage Block');
-define('_AM_SYSTEM_BLOCKS_NAME', 'Name');
-define('_AM_SYSTEM_BLOCKS_TYPE', 'Block Type');
-define('_AM_SYSTEM_BLOCKS_SBLEFT', 'Side Block - Left');
-define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'Side Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBLEFT', 'Center Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'Center Block - Right');
-define('_AM_SYSTEM_BLOCKS_CBCENTER', 'Center Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'Center Block - Bottom left');
-define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'Center Block - Bottom right');
+define('_AM_SYSTEM_BLOCKS_ADD', 'افزودن بلوک');
+define('_AM_SYSTEM_BLOCKS_MANAGE', 'مدیریت بلوک');
+define('_AM_SYSTEM_BLOCKS_NAME', 'نام');
+define('_AM_SYSTEM_BLOCKS_TYPE', 'نوع بلوک');
+define('_AM_SYSTEM_BLOCKS_SBLEFT', 'بلوک کناری - چپ');
+define('_AM_SYSTEM_BLOCKS_SBRIGHT', 'بلوک کناری - راست');
+define('_AM_SYSTEM_BLOCKS_CBLEFT', 'بلوک میانی - چپ');
+define('_AM_SYSTEM_BLOCKS_CBRIGHT', 'بلوک میانی - راست');
+define('_AM_SYSTEM_BLOCKS_CBCENTER', 'بلوک میانی - وسط');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT', 'بلوک میانی - پایین چپ');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT', 'بلوک میانی - پایین راست');
 
-define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'Footer Block - Left');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'Footer Block - Center');
-define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'Footer Block - Right');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT', 'بلوک پایین برگه - چپ');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER', 'بلوک پایین برگه - وسط');
+define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT', 'بلوک پایین برگه - راست');
 
-define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'Center Block - Bottom');
-define('_AM_SYSTEM_BLOCKS_WEIGHT', 'Weight');
-define('_AM_SYSTEM_BLOCKS_VISIBLE', 'Visible');
-define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'Visible in');
-define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'Top Page');
-define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'All Pages');
-define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'Unassigned');
-define('_AM_SYSTEM_BLOCKS_TITLE', 'Title');
-define('_AM_SYSTEM_BLOCKS_CONTENT', 'Content');
-define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'Useful Tags:');
-define('_AM_SYSTEM_BLOCKS_BLOCKTAG', '%s will print %s');
-define('_AM_SYSTEM_BLOCKS_CTYPE', 'Content Type');
+define('_AM_SYSTEM_BLOCKS_CBBOTTOM', 'بلوک میانی - پایین');
+define('_AM_SYSTEM_BLOCKS_WEIGHT', 'وزن');
+define('_AM_SYSTEM_BLOCKS_VISIBLE', 'قابل مشاهده');
+define('_AM_SYSTEM_BLOCKS_VISIBLEIN', 'قابل مشاهده در');
+define('_AM_SYSTEM_BLOCKS_TOPPAGE', 'صفحه اصلی');
+define('_AM_SYSTEM_BLOCKS_ALLPAGES', 'همه صفحات');
+define('_AM_SYSTEM_BLOCKS_UNASSIGNED', 'تخصیص داده نشده');
+define('_AM_SYSTEM_BLOCKS_TITLE', 'عنوان');
+define('_AM_SYSTEM_BLOCKS_CONTENT', 'محتوا');
+define('_AM_SYSTEM_BLOCKS_USEFULTAGS', 'برچسبهای مفید:');
+define('_AM_SYSTEM_BLOCKS_BLOCKTAG', '%s مقدار %s را چاپ خواهد کرد');
+define('_AM_SYSTEM_BLOCKS_CTYPE', 'نوع محتوا');
 define('_AM_SYSTEM_BLOCKS_HTML', 'HTML');
-define('_AM_SYSTEM_BLOCKS_PHP', 'PHP Script');
-define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'Auto Format (smilies enabled)');
-define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'Auto Format (smilies disabled)');
-define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'Cache lifetime');
-define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'Custom Block (HTML)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'Custom Block (PHP)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'Custom Block (Auto Format + smilies)');
-define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'Custom Block (Auto Format)');
-define('_AM_SYSTEM_BLOCKS_EDITTPL', 'Edit Template');
-define('_AM_SYSTEM_BLOCKS_OPTIONS', 'Options');
-define('_AM_SYSTEM_BLOCKS_DRAG', 'Drag or sort the block');
+define('_AM_SYSTEM_BLOCKS_PHP', 'اسکریپت PHP');
+define('_AM_SYSTEM_BLOCKS_AFWSMILE', 'فرمت خودکار (شکلکها فعال)');
+define('_AM_SYSTEM_BLOCKS_AFNOSMILE', 'فرمت خودکار (شکلکها غیرفعال)');
+define('_AM_SYSTEM_BLOCKS_BCACHETIME', 'زمان ماندگاری حافظه پنهان');
+define('_AM_SYSTEM_BLOCKS_CUSTOMHTML', 'بلوک سفارشی (HTML)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'بلوک سفارشی (PHP)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'بلوک سفارشی (فرمت خودکار + شکلکها)');
+define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'بلوک سفارشی (فرمت خودکار)');
+define('_AM_SYSTEM_BLOCKS_EDITTPL', 'ویرایش قالب');
+define('_AM_SYSTEM_BLOCKS_OPTIONS', 'گزینهها');
+define('_AM_SYSTEM_BLOCKS_DRAG', 'کشیدن یا مرتب سازی بلوک');
 // Messages
 define('_AM_SYSTEM_BLOCKS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Are you sure to delete this block ? <div class="bold">%s</div>');
-define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'System blocks cannot be deleted!');
-define('_AM_SYSTEM_BLOCKS_MODULECANT', 'This block cannot be deleted directly! If you wish to disable this block, deactivate the module.');
+define('_AM_SYSTEM_BLOCKS_RUSUREDEL', 'آیا مطمئن هستید که این بلوک را حذف کنید؟ <div class="bold">%s</div>');
+define('_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'بلوکهای سیستمی قابل حذف نیستند!');
+define('_AM_SYSTEM_BLOCKS_MODULECANT', 'این بلوک مستقیماً قابل حذف نیست! اگر میخواهید این بلوک را غیرفعال کنید، ماژول را غیرفعال کنید.');
 // Tips
 define('_AM_SYSTEM_BLOCKS_TIPS', '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> this image and set your site just the way you want it</li>
-<li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> or <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /></li>
+<li>شما میتوانید به راحتی موقعیت کناری یا ترتیب را با کشیدن و رها کردن تغییر دهید، روی این تصویر <img class="tooltip" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DRAG . '" title="' . _AM_SYSTEM_BLOCKS_DRAG . '" /> کلیک کنید و سایت خود را دقیقاً همانطور که میخواهید تنظیم کنید.</li>
+<li>افزودن یک بلوک سفارشی جدید</li>
+<li>با کلیک بر روی <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_DISPLAY . '" title="' . _AM_SYSTEM_BLOCKS_DISPLAY . '"/> یا <img class="tooltip" width="16" src="%s" alt="' . _AM_SYSTEM_BLOCKS_HIDE . '" title="' . _AM_SYSTEM_BLOCKS_HIDE . '" /> بلوک را آنلاین یا آفلاین کنید.</li>
 </ul>');
 
-define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'Footer Left');
-define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'Footer Center');
-define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'Footer Right');
+define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT', 'پایین برگه چپ');
+define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER', 'پایین برگه وسط');
+define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT', 'پایین برگه راست');

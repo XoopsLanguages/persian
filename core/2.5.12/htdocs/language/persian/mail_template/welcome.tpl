@@ -1,15 +1,14 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+شما با نام کاربری "{X_UNAME}" بهطور موفقیتآمیز در {X_SITENAME} ثبتنام کردید.
+خوشحال میشویم که از {X_SITENAME} بازدید کنید: {X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+اگر در استفاده از "{X_SITENAME}" مشکلی داشتید یا دچار ناراحتی شدید، لطفاً با ما تماس بگیرید: {X_ADMINMAIL}
 
-Best regards,
+با بهترین آرزوها،
 
 -----------
-{X_SITENAME}: {X_SITEURL} 
-webmaster: {X_ADMINMAIL}
+{X_SITENAME}: {X_SITEURL}
+مدیر وبسایت: {X_ADMINMAIL}

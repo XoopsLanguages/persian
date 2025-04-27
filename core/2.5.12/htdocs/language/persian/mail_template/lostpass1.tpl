@@ -1,13 +1,13 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-A web user from {IP} has just requested a new password for your profile at {SITENAME}.
-You can get your new password by clicking on the link below:
+یک کاربر وب از آدرس IP {IP} به تازگی درخواست یک رمز عبور جدید برای پروفایل شما در {SITENAME} کرده است.
+شما می‌توانید با کلیک روی لینک زیر رمز عبور جدید خود را دریافت کنید:
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+اگر شما این درخواست را نکرده‌اید، نگران نباشید. فقط این ایمیل را حذف کنید.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+مدیر وب‌سایت
 {ADMINMAIL}

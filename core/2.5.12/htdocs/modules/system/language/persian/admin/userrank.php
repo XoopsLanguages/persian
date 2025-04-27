@@ -5,31 +5,32 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 //Nav
-define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'Ranks Manager');
-define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'Ranks list');
-define('_AM_SYSTEM_USERRANK_NAV_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_ACTION', 'Action');
-define('_AM_SYSTEM_USERRANK_ADD', 'Add a new rank');
-define('_AM_SYSTEM_USERRANK_DELETE', 'Delete rank');
-define('_AM_SYSTEM_USERRANK_EDIT', 'Edit rank');
-define('_AM_SYSTEM_USERRANK_IMAGE', 'Image');
-define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_USERRANK_MAXPOST', 'Max. Posts');
-define('_AM_SYSTEM_USERRANK_MINPOST', 'Min. Posts');
-define('_AM_SYSTEM_USERRANK_OFF', 'Special rank');
-define('_AM_SYSTEM_USERRANK_ON', 'No special rank');
+define('_AM_SYSTEM_USERRANK_NAV_MANAGER', 'مدیریت رتبهها');
+define('_AM_SYSTEM_USERRANK_NAV_MAIN', 'لیست رتبهها');
+define('_AM_SYSTEM_USERRANK_NAV_ADD', 'افزودن رتبه جدید');
+define('_AM_SYSTEM_USERRANK_NAV_EDIT', 'ویرایش رتبه');
+define('_AM_SYSTEM_USERRANK_NAV_DELETE', 'حذف رتبه');
+define('_AM_SYSTEM_USERRANK_ACTION', 'عملیات');
+define('_AM_SYSTEM_USERRANK_ADD', 'افزودن رتبه جدید');
+define('_AM_SYSTEM_USERRANK_DELETE', 'حذف رتبه');
+define('_AM_SYSTEM_USERRANK_EDIT', 'ویرایش رتبه');
+define('_AM_SYSTEM_USERRANK_IMAGE', 'تصویر');
+define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'فایلها موجود در: %s');
+define('_AM_SYSTEM_USERRANK_MAXPOST', 'حداکثر تعداد پستها');
+define('_AM_SYSTEM_USERRANK_MINPOST', 'حداقل تعداد پستها');
+define('_AM_SYSTEM_USERRANK_OFF', 'رتبه ویژه');
+define('_AM_SYSTEM_USERRANK_ON', 'بدون رتبه ویژه');
 define('_AM_SYSTEM_USERRANK_SAVE', _AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_USERRANK_SPECIAL', 'Special Ranks');
-define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(Special ranks can be assigned to users irrespective of the number of user posts)');
-define('_AM_SYSTEM_USERRANK_SUREDEL', 'Are you sure you want to delete this ranking?');
-define('_AM_SYSTEM_USERRANK_TITLE', 'Title');
-define('_AM_SYSTEM_USERRANK_UPLOAD', 'Upload');
+define('_AM_SYSTEM_USERRANK_SPECIAL', 'رتبههای ویژه');
+define('_AM_SYSTEM_USERRANK_SPECIAL_CAN', '(رتبههای ویژه میتوانند بدون در نظر گرفتن تعداد پستهای کاربر به کاربران اختصاص داده شوند)');
+define('_AM_SYSTEM_USERRANK_SUREDEL', 'آیا مطمئن هستید که میخواهید این رتبهبندی را حذف کنید؟');
+define('_AM_SYSTEM_USERRANK_TITLE', 'عنوان');
+define('_AM_SYSTEM_USERRANK_UPLOAD', 'بارگذاری');
 // Tips
-define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Add, update or delete user rank</li></ul>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>Max uploaded files size: %s KB</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>افزودن، بهروزرسانی یا حذف رتبه کاربر</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM1', '<ul><li>انواع MIME مجاز: %s</li>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM2', '<li>حداکثر اندازه فایلهای بارگذاری شده: %s کیلوبایت</li></ul>');
 // Errors
-define('_AM_SYSTEM_USERRANK_ERROR', 'Errors');
+define('_AM_SYSTEM_USERRANK_ERROR', 'خطاها');

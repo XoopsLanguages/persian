@@ -3,37 +3,37 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_XOOPS_UPGRADE', 'XOOPS System Upgrade');
-define('_CHECKING_APPLIED', 'Checking applied upgrades:');
-define('_SET_FILES_WRITABLE', 'Make the following files writable before proceeding:');
-define('_NO_NEED_UPGRADE', 'No upgrade necessary. Please %s and remove this folder from your server');
-define('_NEED_UPGRADE', 'Upgrade needed');
-define('_PROCEED_UPGRADE', 'Proceed to upgrade');
-define('_PERFORMING_UPGRADE', 'Applied patch %s');
+define('_XOOPS_UPGRADE', 'ارتقای سیستم XOOPS');
+define('_CHECKING_APPLIED', 'بررسی ارتقاهای اعمالشده:');
+define('_SET_FILES_WRITABLE', 'قبل از ادامه، فایلهای زیر را قابل نوشتن کنید:');
+define('_NO_NEED_UPGRADE', 'نیازی به ارتقا نیست. لطفاً %s و این پوشه را از سرور خود حذف کنید');
+define('_NEED_UPGRADE', 'نیاز به ارتقا');
+define('_PROCEED_UPGRADE', 'ادامه به ارتقا');
+define('_PERFORMING_UPGRADE', 'اعمال وصله %s');
 
-define('_USER_LOGIN', 'Login Required');
+define('_USER_LOGIN', 'نیاز به ورود');
 
-define('_MANUAL_INSTRUCTIONS', 'Manual installation instructions');
+define('_MANUAL_INSTRUCTIONS', 'دستورالعملهای نصب دستی');
 
 // %s is filename
-define('_FAILED_PATCH', 'Failed to patch %s');
-define('_APPLY_NEXT', 'Apply next upgrade (%s)');
-define('_COPY_RED_LINES', 'Copy the following red lines to %s');
+define('_FAILED_PATCH', 'ناتوانی در اعمال وصله %s');
+define('_APPLY_NEXT', 'اعمال ارتقای بعدی (%s)');
+define('_COPY_RED_LINES', 'خطوط قرمز زیر را به %s کپی کنید');
 
-define('_FINISH', 'Finish');
-define('_RELOAD', 'Reload');
+define('_FINISH', 'پایان');
+define('_RELOAD', 'بارگذاری مجدد');
 
 define('_UPGRADE_CHARSET', 'UTF-8');
-define('_UPDATE_SYSTEM_MODULE', 'update system module');
+define('_UPDATE_SYSTEM_MODULE', 'بهروزرسانی ماژول سیستم');
 
-define('_LANGUAGE', 'Language');
-define('_SUPPORT', 'Support');
-define('_XOOPS_SOURCE_CODE', 'XOOPS on GitHub');
-define('_PATCH_COUNT', 'Patch Sets');
-define('_USERNAME_PLACEHOLDER', 'Your Username');
-define('_PASSWORD_PLACEHOLDER', 'Your Password');
-define('_CONTINUE', 'Continue');
+define('_LANGUAGE', 'زبان');
+define('_SUPPORT', 'پشتیبانی');
+define('_XOOPS_SOURCE_CODE', 'XOOPS در GitHub');
+define('_PATCH_COUNT', 'مجموعههای وصله');
+define('_USERNAME_PLACEHOLDER', 'نام کاربری شما');
+define('_PASSWORD_PLACEHOLDER', 'رمز عبور شما');
+define('_CONTINUE', 'ادامه');
 
-define('XOOPS_ERROR_ENCOUNTERED', 'Error');
-define('XOOPS_ERROR_SEE_BELOW', 'See below for messages.');
-define('_FILE_ACCESS_ERROR', 'Could not access the file %s');
+define('XOOPS_ERROR_ENCOUNTERED', 'خطا');
+define('XOOPS_ERROR_SEE_BELOW', 'پیامها را در زیر ببینید.');
+define('_FILE_ACCESS_ERROR', 'ناتوانی در دسترسی به فایل %s');

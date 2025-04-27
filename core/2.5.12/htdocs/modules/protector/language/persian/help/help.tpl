@@ -1,83 +1,81 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Help: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Back to the administration of Protector"> Protector <img src="<{xoAdminIcons 'home.png'}>" alt="Back to the administration of Protector"/></a></h1>
-    <!-- -----Help Content ---------- -->
-    <h4 class="odd">Description</h4>
+    <h1 class="head">راهنما: <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="بازگشت به مدیریت محافظ"> محافظ <img src="<{xoAdminIcons 'home.png'}>" alt="بازگشت به مدیریت محافظ"/></a></h1>
+    <h4 class="odd">توضیحات</h4>
 
-    <p class="even">Protector is a module to defend your XOOPS CMS from various malicious attacks.</p>
-    <h4 class="odd">Install/uninstall</h4>
+    <p class="even">محافظ ماژولی برای دفاع از سیستم مدیریت محتوای XOOPS شما در برابر حملات مخرب مختلف است.</p>
+    <h4 class="odd">نصب/حذف</h4>
 
-    <p>First, define XOOPS_TRUST_PATH into mainfile.php if you've never done it yet.</p>
+    <p>ابتدا، اگر قبلاً این کار را انجام ندادهاید، XOOPS_TRUST_PATH را در mainfile.php تعریف کنید.</p>
     <br>
 
-    <p>Copy html/modules/protector in the archive into your XOOPS_ROOT_PATH/modules/</p>
+    <p>پوشه html/modules/protector موجود در آرشیو را در XOOPS_ROOT_PATH/modules/ کپی کنید.</p>
 
-    <p>Copy xoops_trust_path/modules/protector in the archive into your XOOPS_TRUST_PATH/modules/</p>
+    <p>پوشه xoops_trust_path/modules/protector موجود در آرشیو را در XOOPS_TRUST_PATH/modules/ کپی کنید.</p>
     <br>
 
-    <p>Turn permission of XOOPS_TRUST_PATH/modules/protector/configs writable</p>
-    <h4 class="odd">= How to rescue =</h4>
+    <p>مجوز نوشتن را برای XOOPS_TRUST_PATH/modules/protector/configs فعال کنید.</p>
+    <h4 class="odd">= نحوه نجات =</h4>
 
-    <p class="even">If you've been banned from Protector, just delete files under XOOPS_TRUST_PATH/modules/protector/configs/</p>
-    <h4 class="odd">Introduction for filter-plugins in this archive.</h4>
+    <p class="even">اگر توسط محافظ مسدود شدهاید، فقط فایلهای موجود در XOOPS_TRUST_PATH/modules/protector/configs/ را حذف کنید.</p>
+    <h4 class="odd">مقدمهای برای افزونههای فیلتر موجود در این آرشیو.</h4>
 
     <p class="even">- postcommon_post_deny_by_rbl.php
         <br>
-        an anti-SPAM plugin.
+        یک افزونه ضد هرزنامه.
         <br>
-        All of Post from IP registered in RBL will be rejected.
+        تمام ارسالها از IP ثبت شده در RBL رد خواهند شد.
         <br>
-        This plugin can slow the performance of Post, especially chat modules.
+        این افزونه میتواند عملکرد ارسال، به ویژه ماژولهای گفتگو را کند کند.
     </p>
 
     <p>- postcommon_post_deny_by_httpbl.php
         <br>
-        an anti-SPAM plugin.
+        یک افزونه ضد هرزنامه.
         <br>
-        All of Post from IP registered in http:BL will be rejected.
+        تمام ارسالها از IP ثبت شده در http:BL رد خواهند شد.
         <br>
-        Before using it, get HTTPBL_KEY from http://www.projecthoneypot.org/ and set it into the filter file.
+        قبل از استفاده، HTTPBL_KEY را از http://www.projecthoneypot.org/ دریافت کرده و آن را در فایل فیلتر تنظیم کنید.
         <br>
         define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;
     </p>
 
     <p class="even">- postcommon_post_need_multibyte.php
         <br>
-        an anti-SPAM plugin.
+        یک افزونه ضد هرزنامه.
         <br>
-        Post without multibyte characters will be rejected.
+        ارسالهای بدون نویسههای چند بایتی رد خواهند شد.
         <br>
-        This plugin is only for sites of japanese, tchinese, schinese, and korean.
+        این افزونه فقط برای سایتهای ژاپنی، چینی سنتی، چینی ساده شده و کرهای مناسب است.
     </p>
 
     <p>- postcommon_post_htmlpurify4guest.php
         <br>
-        All post data sent by guests will be purified by HTMLPurifier.
+        تمام دادههای ارسالی توسط مهمانان توسط HTMLPurifier پاکسازی خواهند شد.
         <br>
-        If you allow guests posting HTML, I strongly recommend you to enable it.
+        اگر اجازه ارسال HTML توسط مهمانان را میدهید، اکیداً توصیه میکنم آن را فعال کنید.
     </p>
 
     <p class="even">-postcommon_register_insert_js_check.php
         <br>
-        This plugin prevents your site from robot's user registering.
+        این افزونه از ثبت نام رباتها در سایت شما جلوگیری میکند.
         <br>
-        Required JavaScript working on the vistors browser.
+        نیازمند فعال بودن جاوا اسکریپت در مرورگر بازدیدکنندگان است.
     </p>
 
     <p>- bruteforce_overrun_message.php
         <br>
-        Specify a message for visitors tried wrong passwords more than the specified times.
+        پیامی را برای بازدیدکنندگانی که بیش از تعداد مشخص شده گذرواژههای اشتباه را امتحان کردهاند، تعیین کنید.
         <br>
-        All plugins named *_message.php specifys the message for rejected accesses.
+        تمام افزونههایی که نام آنها با *_message.php شروع میشود، پیام مربوط به دسترسیهای رد شده را مشخص میکنند.
     </p>
 
     <p class="even">- precommon_bwlimit_errorlog.php
         <br>
-        When bandwidth limitation works unfortunately, this plugin logs it into Apache's error_log.
+        هنگامی که محدودیت پهنای باند به طور ناگهانی فعال میشود، این افزونه آن را در error_log آپاچی ثبت میکند.
     </p>
 
-    <p>All plugins named *_errorlog.php log some informations into Apaches error_log.</p>
-    <h4 class="odd">Tutorial</h4>
+    <p>تمام افزونههایی که نام آنها با *_errorlog.php شروع میشود، برخی اطلاعات را در error_log آپاچی ثبت میکنند.</p>
+    <h4 class="odd">آموزش</h4>
 
-    <p class="even">Tutorial coming soon.</p>
-    <!-- -----Help Content ---------- -->
+    <p class="even">آموزش به زودی ارائه خواهد شد.</p>
 </div>

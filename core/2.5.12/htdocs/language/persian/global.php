@@ -3,206 +3,219 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PLEASEWAIT', 'Please Wait');
-define('_FETCHING', 'Loading...');
-define('_TAKINGBACK', 'Taking you back to where you were....');
-define('_LOGOUT', 'Logout');
-define('_SUBJECT', 'Subject');
-define('_MESSAGEICON', 'Message Icon');
-define('_COMMENTS', 'Comments');
-define('_POSTANON', 'Post Anonymously');
-define('_DISABLESMILEY', 'Disable smiley');
-define('_DISABLEHTML', 'Disable HTML');
-define('_PREVIEW', 'Preview');
-define('_GO', 'Go!');
-define('_NESTED', 'Nested');
-define('_NOCOMMENTS', 'No Comments');
-define('_FLAT', 'Flat');
-define('_THREADED', 'Threaded');
-define('_OLDESTFIRST', 'Oldest First');
-define('_NEWESTFIRST', 'Newest First');
-define('_MORE', 'more...');
-define('_MULTIPAGE', 'To have your article span multiple pages, insert the word <span color=red>[pagebreak]</span> (with brackets) in the article.');
-define('_IFNOTRELOAD', 'If the page does not automatically reload, please click <a href=\'%s\'>here</a>');
+define('_PLEASEWAIT', 'لطفاً منتظر بمانید');
+define('_FETCHING', 'در حال بارگذاری...');
+define('_TAKINGBACK', 'بازگرداندن شما به جایی که بودید...');
+define('_LOGOUT', 'خروج');
+define('_SUBJECT', 'موضوع');
+define('_MESSAGEICON', 'آیکون پیام');
+define('_COMMENTS', 'نظرات');
+define('_POSTANON', 'ارسال به صورت ناشناس');
+define('_DISABLESMILEY', 'غیرفعال کردن خندان‌ها');
+define('_DISABLEHTML', 'غیرفعال کردن HTML');
+define('_PREVIEW', 'پیش‌نمایش');
+define('_GO', 'برو!');
+define('_NESTED', 'تودرتو');
+define('_NOCOMMENTS', 'بدون نظر');
+define('_FLAT', 'تخت');
+define('_THREADED', 'موضوعی');
+define('_OLDESTFIRST', 'قدیمی‌ترین ابتدا');
+define('_NEWESTFIRST', 'جدیدترین ابتدا');
+define('_MORE', 'بیشتر...');
+define('_MULTIPAGE', 'برای تقسیم مقاله به چند صفحه، کلمه <span color=red>[pagebreak]</span> (با کروشه‌ها) را در مقاله وارد کنید.');
+define('_IFNOTRELOAD', 'اگر صفحه به صورت خودکار بارگذاری نشد، لطفاً <a href=\'%s\'>اینجا</a> کلیک کنید');
+
 // Error messages issued by XoopsObject::cleanVars()
-define('_XOBJ_ERR_REQUIRED', '%s is required');
-define('_XOBJ_ERR_SHORTERTHAN', '%s must be shorter than %d characters.');
+define('_XOBJ_ERR_REQUIRED', '%s الزامی است');
+define('_XOBJ_ERR_SHORTERTHAN', '%s باید کوتاه‌تر از %d کاراکتر باشد.');
+
 // %%%%%%    File Name themeuserpost.php     %%%%%
-define('_PROFILE', 'Profile');
-define('_POSTEDBY', 'Posted by');
-define('_VISITWEBSITE', 'Visit Website');
-define('_SENDPMTO', 'Send Private Message to %s');
-define('_SENDEMAILTO', 'Send Email to %s');
-define('_ADD', 'Add');
-define('_REPLY', 'Reply');
-define('_DATE', 'Date'); // Posted date
+define('_PROFILE', 'پروفایل');
+define('_POSTEDBY', 'ارسال‌شده توسط');
+define('_VISITWEBSITE', 'بازدید از وب‌سایت');
+define('_SENDPMTO', 'ارسال پیام خصوصی به %s');
+define('_SENDEMAILTO', 'ارسال ایمیل به %s');
+define('_ADD', 'افزودن');
+define('_REPLY', 'پاسخ');
+define('_DATE', 'تاریخ'); // Posted date
+
 // %%%%%%    File Name admin_functions.php     %%%%%
-define('_MAIN', 'Main');
-define('_MANUAL', 'Manual');
-define('_INFO', 'Info');
-define('_CPHOME', 'Control Panel Home');
-define('_YOURHOME', 'Home Page');
+define('_MAIN', 'اصلی');
+define('_MANUAL', 'راهنما');
+define('_INFO', 'اطلاعات');
+define('_CPHOME', 'صفحه اصلی پنل کنترل');
+define('_YOURHOME', 'صفحه اصلی');
+
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
-define('_WHOSONLINE', 'Who\'s Online');
-define('_GUESTS', 'Guests');
-define('_MEMBERS', 'Members');
-define('_ONLINEPHRASE', '<strong>%s</strong> user(s) are online');
-define('_ONLINEPHRASEX', '<strong>%s</strong> user(s) are browsing <strong>%s</strong>');
-define('_CLOSE', 'Close'); // Close window
+define('_WHOSONLINE', 'چه کسی آنلاین است');
+define('_GUESTS', 'مهمان‌ها');
+define('_MEMBERS', 'اعضا');
+define('_ONLINEPHRASE', '<strong>%s</strong> کاربر آنلاین هستند');
+define('_ONLINEPHRASEX', '<strong>%s</strong> کاربر در حال مرور <strong>%s</strong> هستند');
+define('_CLOSE', 'بستن'); // Close window
+
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
-define('_QUOTEC', 'Quote:');
+define('_QUOTEC', 'نقل‌قول:');
+
 // %%%%%%    File Name admin.php     %%%%%
-define('_NOPERM', 'Sorry, you don\'t have the permission to access this area.');
+define('_NOPERM', 'متأسفیم، شما مجوز دسترسی به این بخش را ندارید.');
+
 // %%%%%        Common Phrases        %%%%%
-define('_NO', 'No');
-define('_YES', 'Yes');
-define('_EDIT', 'Edit');
-define('_DELETE', 'Delete');
-define('_SUBMIT', 'Submit');
-define('_MODULENOEXIST', 'Selected module does not exist!');
-define('_ALIGN', 'Align');
-define('_LEFT', 'Left');
-define('_CENTER', 'Center');
-define('_RIGHT', 'Right');
-define('_FORM_ENTER', 'Please enter %s');
-define('_MUSTWABLE', 'File %s must be writable by the server!'); // %s represents file name
+define('_NO', 'خیر');
+define('_YES', 'بله');
+define('_EDIT', 'ویرایش');
+define('_DELETE', 'حذف');
+define('_SUBMIT', 'ارسال');
+define('_MODULENOEXIST', 'ماژول انتخاب‌شده وجود ندارد!');
+define('_ALIGN', 'تراز');
+define('_LEFT', 'چپ');
+define('_CENTER', 'مرکز');
+define('_RIGHT', 'راست');
+define('_FORM_ENTER', 'لطفاً %s را وارد کنید');
+define('_MUSTWABLE', 'فایل %s باید توسط سرور قابل نوشتن باشد!'); // %s represents file name
+
 // Module info
-define('_PREFERENCES', 'Preferences');
-define('_VERSION', 'Version');
-define('_DESCRIPTION', 'Description');
-define('_AUTHOR', 'Author');
-define('_CREDITS', 'Credits');
-define('_LICENCE', 'Licence');
-define('_ERRORS', 'Errors');
-define('_NONE', 'None');
-define('_ON', 'On');
-define('_READS', 'reads');
-define('_WELCOMETO', 'Welcome to %s');
-define('_SEARCH', 'Search');
-define('_ALL', 'All');
-define('_TITLE', 'Title');
-define('_OPTIONS', 'Options');
-define('_QUOTE', 'Quote');
-define('_LIST', 'List');
-define('_LOGIN', 'User Login');
-define('_USERNAME', 'Username: ');
-define('_PASSWORD', 'Password: ');
-define('_SELECT', 'Select');
-define('_IMAGE', 'Image');
-define('_SEND', 'Send');
-define('_CANCEL', 'Cancel');
-define('_ASCENDING', 'Ascending order');
-define('_DESCENDING', 'Descending order');
-define('_BACK', 'Back');
-define('_NOTITLE', 'No title');
+define('_PREFERENCES', 'تنظیمات');
+define('_VERSION', 'نسخه');
+define('_DESCRIPTION', 'توضیحات');
+define('_AUTHOR', 'نویسنده');
+define('_CREDITS', 'اعتبارها');
+define('_LICENCE', 'مجوز');
+define('_ERRORS', 'خطاها');
+define('_NONE', 'هیچ‌کدام');
+define('_ON', 'روشن');
+define('_READS', 'بازدید');
+define('_WELCOMETO', 'خوش آمدید به %s');
+define('_SEARCH', 'جستجو');
+define('_ALL', 'همه');
+define('_TITLE', 'عنوان');
+define('_OPTIONS', 'گزینه‌ها');
+define('_QUOTE', 'نقل‌قول');
+define('_LIST', 'لیست');
+define('_LOGIN', 'ورود کاربر');
+define('_USERNAME', 'نام کاربری: ');
+define('_PASSWORD', 'رمز عبور: ');
+define('_SELECT', 'انتخاب');
+define('_IMAGE', 'تصویر');
+define('_SEND', 'ارسال');
+define('_CANCEL', 'لغو');
+define('_ASCENDING', 'صعودی');
+define('_DESCENDING', 'نزولی');
+define('_BACK', 'بازگشت');
+define('_NOTITLE', 'بدون عنوان');
+
 /**
  * Image manager
  */
-define('_MD_ADDIMGCAT', 'Add Category');
-define('_MD_IMGCATNAME', 'Category name');
-define('_MD_IMGCATRGRP', 'Select groups for image manager use');
-define('_MD_IMGCATWGRP', 'Select groups allowed to upload images');
-define('_MD_IMGCATWEIGHT', 'Display order in image manager');
-define('_MD_IMGCATDISPLAY', 'Display');
-define('_MD_IMGCATSTRTYPE', 'Images are uploaded to:');
-define('_MD_STRTYOPENG', 'This can not be changed afterwards!');
-define('_MD_ASFILE', 'Store as files (in uploads directory)');
-define('_MD_INDB', "Store in the database (as binary \"blob\" data)");
-define('_MD_IMGMAIN', 'Category');
-define('_MD_EDITIMGCAT', 'Images Settings');
-define('_IMGMANAGER', 'Image Manager');
-define('_NUMIMAGES', '%s images');
-define('_ADDIMAGE', 'Add Image File');
-define('_IMAGENAME', 'Name:');
-define('_IMGMAXSIZE', 'Max size allowed (bytes):');
-define('_IMGMAXWIDTH', 'Max width allowed (pixels):');
-define('_IMGMAXHEIGHT', 'Max height allowed (pixels):');
-define('_IMAGECAT', 'Category:');
-define('_IMAGEFILE', 'Image file:');
-define('_IMGWEIGHT', 'Display order in image manager:');
-define('_IMGDISPLAY', 'Display this image?');
-define('_IMAGEMIME', 'MIME type:');
-define('_FAILFETCHIMG', 'Could not get uploaded file %s');
-define('_FAILSAVEIMG', 'Failed storing image %s into the database');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_MD_ADDIMGCAT', 'افزودن دسته‌بندی');
+define('_MD_IMGCATNAME', 'نام دسته‌بندی');
+define('_MD_IMGCATRGRP', 'انتخاب گروه‌ها برای استفاده از مدیر تصاویر');
+define('_MD_IMGCATWGRP', 'انتخاب گروه‌های مجاز به بارگذاری تصاویر');
+define('_MD_IMGCATWEIGHT', 'ترتیب نمایش در مدیر تصاویر');
+define('_MD_IMGCATDISPLAY', 'نمایش');
+define('_MD_IMGCATSTRTYPE', 'تصاویر بارگذاری می‌شوند در:');
+define('_MD_STRTYOPENG', 'این مورد بعداً قابل تغییر نیست!');
+define('_MD_ASFILE', 'ذخیره به عنوان فایل (در پوشه uploads)');
+define('_MD_INDB', 'ذخیره در پایگاه داده (به صورت داده‌های باینری \"blob\")');
+define('_MD_IMGMAIN', 'دسته‌بندی');
+define('_MD_EDITIMGCAT', 'تنظیمات تصاویر');
+define('_IMGMANAGER', 'مدیر تصاویر');
+define('_NUMIMAGES', '%s تصویر');
+define('_ADDIMAGE', 'افزودن فایل تصویر');
+define('_IMAGENAME', 'نام:');
+define('_IMGMAXSIZE', 'حداکثر اندازه مجاز (بایت):');
+define('_IMGMAXWIDTH', 'حداکثر عرض مجاز (پیکسل):');
+define('_IMGMAXHEIGHT', 'حداکثر ارتفاع مجاز (پیکسل):');
+define('_IMAGECAT', 'دسته‌بندی:');
+define('_IMAGEFILE', 'فایل تصویر:');
+define('_IMGWEIGHT', 'ترتیب نمایش در مدیر تصاویر:');
+define('_IMGDISPLAY', 'این تصویر نمایش داده شود؟');
+define('_IMAGEMIME', 'نوع MIME:');
+define('_FAILFETCHIMG', 'نمی‌توان فایل بارگذاری‌شده %s را دریافت کرد');
+define('_FAILSAVEIMG', 'ناتوانی در ذخیره تصویر %s در پایگاه داده');
+define('_NOCACHE', 'بدون کش');
+define('_CLONE', 'کپی');
+
 /**
  * fineupload
  */
-define('_UPLOAD', 'Upload');
-define('_SELECTFILES', 'Select files');
-define('_DROPFILESHERE', 'Drop files here');
-define('_RETRY', 'Retry');
-define('_OK', 'Ok');
-define('_FORMATPROGRESS', '{percent}% of {total_size}');
-define('_FAILUPLOAD', 'Upload failed!');
-define('_WAITINGFORRESPONSE', 'Processing...');
-define('_PAUSED', 'Paused');
-define('_PROCESSINGDROPPEDFILES', 'Processing dropped files...');
-define('_TYPEERROR', '{file} has an invalid extension. Valid extension(s): {extensions}!');
-define('_SIZEERROR', '{file} is too large, maximum file size is {sizeLimit}!');
-define('_MINSIZEERROR', '{file} is too small, minimum file size is {minSizeLimit}!');
-define('_EMPTYERROR', '{file} is empty, please select files again without it!');
-define('_NOFILESERROR', 'No files to upload!');
-define('_TOOMANYITEMSERROR', 'Too many items ({netItems}) would be uploaded.  Item limit is {itemLimit}!');
-define('_MAXHEIGHTIMAGEERROR', 'Image is too tall!');
-define('_MAXWIDTHIMAGEERROR', 'Image is too wide!');
-define('_MINHEIGHTIMAGEERROR', 'Image is not tall enough!');
-define('_MINWIDTHIMAGEERROR', 'Image is not wide enough!');
-define('_RETRYFAILTOOMANYITEMS', 'Retry failed - you have reached your file limit!');
-define('_ONLEAVE', 'The files are being uploaded, if you leave now the upload will be canceled!');
-define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'Unrecoverable error - this browser does not permit file uploading of any kind due to serious bugs in iOS8 Safari.  Please use iOS8 Chrome until Apple fixes these issues!');
+define('_UPLOAD', 'بارگذاری');
+define('_SELECTFILES', 'انتخاب فایل‌ها');
+define('_DROPFILESHERE', 'فایل‌ها را اینجا رها کنید');
+define('_RETRY', 'دوباره امتحان کنید');
+define('_OK', 'تأیید');
+define('_FORMATPROGRESS', '{percent}% از {total_size}');
+define('_FAILUPLOAD', 'بارگذاری ناموفق بود!');
+define('_WAITINGFORRESPONSE', 'در حال پردازش...');
+define('_PAUSED', 'متوقف شده');
+define('_PROCESSINGDROPPEDFILES', 'در حال پردازش فایل‌های رها‌شده...');
+define('_TYPEERROR', '{file} دارای پسوند نامعتبر است. پسوند(های) معتبر: {extensions}!');
+define('_SIZEERROR', '{file} بیش از حد بزرگ است، حداکثر اندازه فایل {sizeLimit} است!');
+define('_MINSIZEERROR', '{file} بیش از حد کوچک است، حداقل اندازه فایل {minSizeLimit} است!');
+define('_EMPTYERROR', '{file} خالی است، لطفاً فایل‌ها را دوباره بدون آن انتخاب کنید!');
+define('_NOFILESERROR', 'هیچ فایلی برای بارگذاری وجود ندارد!');
+define('_TOOMANYITEMSERROR', 'تعداد آیتم‌های زیاد ({netItems}) بارگذاری می‌شوند. محدودیت آیتم {itemLimit} است!');
+define('_MAXHEIGHTIMAGEERROR', 'تصویر بیش از حد بلند است!');
+define('_MAXWIDTHIMAGEERROR', 'تصویر بیش از حد عریض است!');
+define('_MINHEIGHTIMAGEERROR', 'تصویر به اندازه کافی بلند نیست!');
+define('_MINWIDTHIMAGEERROR', 'تصویر به اندازه کافی عریض نیست!');
+define('_RETRYFAILTOOMANYITEMS', 'تلاش مجدد ناموفق - شما به حد مجاز فایل رسیده‌اید!');
+define('_ONLEAVE', 'فایل‌ها در حال بارگذاری هستند، اگر اکنون خارج شوید، بارگذاری لغو خواهد شد!');
+define('_UNSUPPORTEDBROWSERIOS8SAFARI', 'خطای غیرقابل بازیابی - این مرورگر به دلیل اشکالات جدی در iOS8 Safari اجازه بارگذاری هیچ نوع فایلی را نمی‌دهد. لطفاً از iOS8 Chrome استفاده کنید تا اپل این مشکلات را برطرف کند!');
 
 // %%%%%    For xoopsform files %%%%%
-define('_STARTSWITH', 'Starts with');
-define('_ENDSWITH', 'Ends with');
-define('_MATCHES', 'Matches');
-define('_CONTAINS', 'Contains');
-define('_REQUIRED', 'Required');
+define('_STARTSWITH', 'شروع با');
+define('_ENDSWITH', 'پایان با');
+define('_MATCHES', 'مطابقت دارد');
+define('_CONTAINS', 'شامل');
+define('_REQUIRED', 'الزامی');
+
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'Register');
+define('_REGISTER', 'ثبت‌نام');
+
 // %%%%%%    File Name xoopscodes.php     %%%%%
-define('_SIZE', 'Size'); // font size
-define('_FONT', 'Font'); // font family
-define('_COLOR', 'Color'); // font color
-define('_EXAMPLE', 'SAMPLE');
-define('_ENTERURL', 'Enter the URL of the link you want to add:');
-define('_ENTERWEBTITLE', 'Enter the web site title:');
-define('_ENTERIMGURL', 'Enter the URL of the image you want to add.');
-define('_ENTERIMGPOS', 'Now, enter the position of the image.');
-define('_IMGPOSRORL', '\'R\' or \'r\' for right, \'L\' or \'l\' for left, or leave it blank.');
-define('_ERRORIMGPOS', 'ERROR! Enter the position of the image.');
-define('_ENTEREMAIL', 'Enter the email address you want to add.');
-define('_ENTERCODE', 'Enter the codes that you want to add.');
-define('_ENTERQUOTE', 'Enter the text that you want to be quoted.');
-define('_ENTERTEXTBOX', 'Please input text into the textbox.');
-define('_ALLOWEDCHAR', 'Allowed max chars length: ');
-define('_CURRCHAR', 'Current chars length: ');
-define('_PLZCOMPLETE', 'Please complete the subject and message fields.');
-define('_MESSAGETOOLONG', 'Your message is too long.');
+define('_SIZE', 'اندازه'); // font size
+define('_FONT', 'فونت'); // font family
+define('_COLOR', 'رنگ'); // font color
+define('_EXAMPLE', 'نمونه');
+define('_ENTERURL', 'URL پیوندی که می‌خواهید اضافه کنید را وارد کنید:');
+define('_ENTERWEBTITLE', 'عنوان وب‌سایت را وارد کنید:');
+define('_ENTERIMGURL', 'URL تصویری که می‌خواهید اضافه کنید را وارد کنید.');
+define('_ENTERIMGPOS', 'اکنون، موقعیت تصویر را وارد کنید.');
+define('_IMGPOSRORL', '\'R\' یا \'r\' برای راست، \'L\' یا \'l\' برای چپ، یا آن را خالی بگذارید.');
+define('_ERRORIMGPOS', 'خطا! موقعیت تصویر را وارد کنید.');
+define('_ENTEREMAIL', 'آدرس ایمیلی که می‌خواهید اضافه کنید را وارد کنید.');
+define('_ENTERCODE', 'کدهایی که می‌خواهید اضافه کنید را وارد کنید.');
+define('_ENTERQUOTE', 'متنی که می‌خواهید نقل‌قول شود را وارد کنید.');
+define('_ENTERTEXTBOX', 'لطفاً متن را در کادر متنی وارد کنید.');
+define('_ALLOWEDCHAR', 'حداکثر طول کاراکترهای مجاز: ');
+define('_CURRCHAR', 'طول کاراکترهای فعلی: ');
+define('_PLZCOMPLETE', 'لطفاً فیلدهای موضوع و پیام را تکمیل کنید.');
+define('_MESSAGETOOLONG', 'پیام شما بیش از حد طولانی است.');
+
 /**
  * xoops smilie
  */
-define('_AM_ADDSMILE', ' Add a new smilie');
-define('_AM_SMILECODE', 'Code');
-define('_AM_SMILEEMOTION', 'Description');
-define('_AM_DISPLAYF', 'Display in the form');
+define('_AM_ADDSMILE', 'افزودن خندان جدید');
+define('_AM_SMILECODE', 'کد');
+define('_AM_SMILEEMOTION', 'توضیحات');
+define('_AM_DISPLAYF', 'نمایش در فرم');
+
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s days');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND', '۱ ثانیه');
+define('_SECONDS', '%s ثانیه');
+define('_MINUTE', '۱ دقیقه');
+define('_MINUTES', '%s دقیقه');
+define('_HOUR', '۱ ساعت');
+define('_HOURS', '%s ساعت');
+define('_DAY', '۱ روز');
+define('_DAYS', '%s روز');
+define('_WEEK', '۱ هفته');
+define('_MONTH', '۱ ماه');
 define('_DATESTRING', 'Y/n/j G:i:s');
-//define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 define('_MEDIUMDATESTRING', 'm/d/Y G:i');
-//define('_SHORTDATESTRING','n/j/Y');
 define('_SHORTDATESTRING', 'm/d/Y');
+
 /**
  * The following characters are recognized in the format string:
  * a - 'am' or 'pm'
@@ -232,35 +245,64 @@ define('_SHORTDATESTRING', 'm/d/Y');
  * z - day of the year; i.e. '0' to '365'
  * Z - timezone offset in seconds (i.e. '-43200' to '43200')
  */
+/**
+ * کاراکترهای زیر در رشته قالب‌بندی شناخته می‌شوند:
+ * a - 'قبل از ظهر' یا 'بعد از ظهر'
+ * A - 'ق.ظ' یا 'ب.ظ'
+ * d - روز ماه، ۲ رقم با صفرهای پیشرو؛ مثلاً '01' تا '31'
+ * D - روز هفته، متنی، ۳ حرف؛ مثلاً 'جم'
+ * F - ماه، متنی، کامل؛ مثلاً 'ژانویه'
+ * h - ساعت، قالب ۱۲ ساعته؛ مثلاً '01' تا '12'
+ * H - ساعت، قالب ۲۴ ساعته؛ مثلاً '00' تا '23'
+ * g - ساعت، قالب ۱۲ ساعته بدون صفرهای پیشرو؛ مثلاً '1' تا '12'
+ * G - ساعت، قالب ۲۴ ساعته بدون صفرهای پیشرو؛ مثلاً '0' تا '23'
+ * i - دقیقه؛ مثلاً '00' تا '59'
+ * j - روز ماه بدون صفرهای پیشرو؛ مثلاً '1' تا '31'
+ * l (ال کوچک) - روز هفته، متنی، کامل؛ مثلاً 'جمعه'
+ * L - بولین برای اینکه آیا سال کبیسه است؛ مثلاً '0' یا '1'
+ * m - ماه؛ مثلاً '01' تا '12'
+ * n - ماه بدون صفرهای پیشرو؛ مثلاً '1' تا '12'
+ * M - ماه، متنی، ۳ حرف؛ مثلاً 'ژان'
+ * s - ثانیه؛ مثلاً '00' تا '59'
+ * S - پسوند ترتیبی انگلیسی، متنی، ۲ کاراکتر؛ مثلاً 'ام'، 'دوم'
+ * t - تعداد روزهای ماه داده‌شده؛ مثلاً '28' تا '31'
+ * T - تنظیم منطقه زمانی این دستگاه؛ مثلاً 'MDT'
+ * U - ثانیه‌ها از زمان اپیک
+ * w - روز هفته، عددی، مثلاً '0' (یکشنبه) تا '6' (شنبه)
+ * Y - سال، ۴ رقم؛ مثلاً '1999'
+ * y - سال، ۲ رقم؛ مثلاً '99'
+ * z - روز سال؛ مثلاً '0' تا '365'
+ * Z - انحراف منطقه زمانی بر حسب ثانیه (مثلاً '-43200' تا '43200')
+ */
+
 // %%%%%        LANGUAGE SPECIFIC SETTINGS   %%%%%
 define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'en');
-// change 0 to 1 if this language is a multi-bytes language
-define('XOOPS_USE_MULTIBYTES', '0');
+define('_LANGCODE', 'fa'); // Changed to Persian language code
+define('XOOPS_USE_MULTIBYTES', '1'); // Set to 1 for Persian (multi-byte language)
+
 /**
  * Additions to 2.4.0
- **/
-define('_RESET', 'Reset');
-define('_RE', 'Re:');
+ */
+define('_RESET', 'بازنشانی');
+define('_RE', 'پاسخ:');
+
 /**
  * Additions to 2.5.5
- **/
+ */
 define('_DBDATESTRING', 'Y-m-d');
 define('_DBTIMESTRING', 'H:i:s');
 define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
 
-//2.5.8
+// 2.5.8
+//define('_XOBJ_ERR_INVALID_EMAIL', 'ایمیل نامعتبر');
+//define('_XOBJ_ERR_INVALID_ENUMERATION', 'شمارش نامعتبر');
 
-//define('_XOBJ_ERR_INVALID_EMAIL', 'Invalid Email');
-//define('_XOBJ_ERR_INVALID_ENUMERATION', 'Invalid Enumeration');
+// XOOPS 2.5.9
+define('_AM_MODULEADMIN_MISSING', 'خطا: کلاس ModuleAdmin وجود ندارد. لطفاً کلاس ModuleAdmin را در /Frameworks نصب کنید (به /docs/readme.txt مراجعه کنید)');
+define('_MD_MESSAGEC', 'پیام:');
 
-//XOOPS 2.5.9
-define('_AM_MODULEADMIN_MISSING','Error: The ModuleAdmin class is missing. Please install the ModuleAdmin Class into /Frameworks (see /docs/readme.txt)');
-define('_MD_MESSAGEC', 'Message:');
-
-
-//XOOPS 2.5.11
-define('_PRINT', 'Print');
+// XOOPS 2.5.11
+define('_PRINT', 'چاپ');
 define('_PDF', 'PDF');
-define('_OFF', 'Off');
-define('_DB_QUERY_ERROR', 'Query Failed! SQL: %s - Error: ');
+define('_OFF', 'خاموش');
+define('_DB_QUERY_ERROR', 'اجرای پرس‌وجو ناموفق بود! SQL: %s - خطا: ');

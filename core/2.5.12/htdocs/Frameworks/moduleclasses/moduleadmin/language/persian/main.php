@@ -15,37 +15,37 @@
  * @author      Grégory Mage (Aka Mage)
  */
 // Info
-define('_AM_MODULEADMIN_CONFIG', 'Configuration Check');
-define('_AM_MODULEADMIN_CONFIG_CHMOD', "The folder '%s' must be with a chmod '%s' (it's now set on %s).");
-define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "The folder '%s' does not exist");
-define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "The folder '%s' exists");
-define('_AM_MODULEADMIN_CONFIG_PHP', 'Minimum PHP required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_XOOPS', 'Minimum XOOPS required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_DB', 'Minimum version required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_ADMIN', 'Minimum ModuleAdmin required: %s (your version is %s)');
-// About
-define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'Change log');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'Amount');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'Please enter USD amount e.g. $25.00');
-define('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD');
+define('_AM_MODULEADMIN_CONFIG', 'بررسی پیکربندی');
+define('_AM_MODULEADMIN_CONFIG_CHMOD', "پوشه '%s' باید با chmod '%s' تنظیم شود (در حال حاضر روی %s تنظیم شده است).");
+define('_AM_MODULEADMIN_CONFIG_FOLDERKO', "پوشه '%s' وجود ندارد");
+define('_AM_MODULEADMIN_CONFIG_FOLDEROK', "پوشه '%s' وجود دارد");
+define('_AM_MODULEADMIN_CONFIG_PHP', 'حداقل PHP مورد نیاز: %s (نسخه شما %s است)');
+define('_AM_MODULEADMIN_CONFIG_XOOPS', 'حداقل XOOPS مورد نیاز: %s (نسخه شما %s است)');
+define('_AM_MODULEADMIN_CONFIG_DB', 'حداقل نسخه مورد نیاز: %s (نسخه شما %s است)');
+define('_AM_MODULEADMIN_CONFIG_ADMIN', 'حداقل نسخه ModuleAdmin مورد نیاز: %s (نسخه شما %s است)');
+// درباره
+define('_AM_MODULEADMIN_ABOUT_CHANGELOG', 'گزارش تغییرات');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT', 'مقدار');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL', 'لطفاً مقدار دلاری را وارد کنید، مثلاً $25.00');
+define('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'دلار آمریکا');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25.00');
 define('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
-define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'Donate using PayPal or a major credit card online!');
-define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'Description');
-define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'Module Info');
-define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'Status');
-define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Updated');
-define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Website');
-define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Released: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'Author: ');
-define('_AM_MODULEADMIN_ABOUT_BY', 'by ');
-define('_AM_MODULEADMIN_ABOUT_CREDITS', 'Credits: ');
-define('_AM_MODULEADMIN_ABOUT_LICENSE', 'License: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'Author name: ');
-define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'Author Info');
-define('_AM_MODULEADMIN_HOME', 'Home');
-define('_AM_MODULEADMIN_DASHBOARD', 'Dashboard');
-define('_AM_MODULEADMIN_ABOUT', 'About');
-define('_AM_MODULEADMIN_PERMISSIONS', 'Permissions');
-//ModuleAdmin
-define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='https://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+define('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT', 'اهدا از طریق PayPal یا کارت اعتباری بزرگ آنلاین!');
+define('_AM_MODULEADMIN_ABOUT_DESCRIPTION', 'توضیحات');
+define('_AM_MODULEADMIN_ABOUT_MODULEINFO', 'اطلاعات ماژول');
+define('_AM_MODULEADMIN_ABOUT_MODULESTATUS', 'وضعیت');
+define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'آخرین بهروزرسانی');
+define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'وبسایت');
+define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'تاریخ انتشار: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR', 'نویسنده: ');
+define('_AM_MODULEADMIN_ABOUT_BY', 'توسط ');
+define('_AM_MODULEADMIN_ABOUT_CREDITS', 'قدردانیها: ');
+define('_AM_MODULEADMIN_ABOUT_LICENSE', 'مجوز: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_NAME', 'نام نویسنده: ');
+define('_AM_MODULEADMIN_ABOUT_AUTHOR_INFO', 'اطلاعات نویسنده');
+define('_AM_MODULEADMIN_HOME', 'صفحه اصلی');
+define('_AM_MODULEADMIN_DASHBOARD', 'داشبورد');
+define('_AM_MODULEADMIN_ABOUT', 'درباره');
+define('_AM_MODULEADMIN_PERMISSIONS', 'مجوزها');
+// ModuleAdmin
+define('_AM_MODULEADMIN_ADMIN_FOOTER', "<div class='center smallsmall italic pad5'>این ماژول توسط <a class='tooltip' rel='external' href='https://xoops.org/' title='بازدید از جامعه XOOPS'>جامعه XOOPS</a> نگهداری میشود</div>");

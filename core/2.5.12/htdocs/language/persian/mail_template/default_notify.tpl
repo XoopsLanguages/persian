@@ -1,20 +1,20 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_NAME}" you are monitoring in the {X_MODULE} module at our site.
+رویداد {X_NOTIFY_EVENT} برای {X_ITEM_TYPE} "{X_ITEM_NAME}" که شما در ماژول {X_MODULE} سایت ما تحت نظر دارید، رخ داده است.
 
-You can view the {X_ITEM_TYPE} here:
+شما می‌توانید {X_ITEM_TYPE} را از اینجا مشاهده کنید:
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+شما برای دریافت اطلاع‌رسانی‌های این‌چنینی اشتراک‌گذاری کرده‌اید.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+اگر این پیام خطا بوده یا اگر تمایل ندارید که دیگر چنین اطلاع‌رسانی‌هایی دریافت کنید، لطفاً با مراجعه به لینک زیر اشتراک‌های خود را به‌روزرسانی کنید:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+لطفاً به این پیام پاسخ ندهید.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
-webmaster
+{X_SITENAME} ({X_SITEURL})
+مدیر وب‌سایت
 {X_ADMINMAIL}

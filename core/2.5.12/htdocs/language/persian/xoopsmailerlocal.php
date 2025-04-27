@@ -18,29 +18,29 @@
  * @since               2.3.0
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  */
-defined('XOOPS_ROOT_PATH') || exit('Restricted access');
+defined('XOOPS_ROOT_PATH') || exit('دسترسی محدود');
 /**
- * Localize the mail functions
+ * محلی سازی توابع ایمیل
  *
- * The English localization is solely for demonstration
+ * محلی سازی انگلیسی صرفاً برای نمایش است
  */
-// Do not change the class name
+// نام کلاس را تغییر ندهید
 class XoopsMailerLocal extends XoopsMailer
 {
     /**
-     * Constructor
+     * سازنده
      */
     public function __construct()
     {
         parent::__construct();
-        // It is supposed no need to change the charset
+        // فرض بر این است که نیازی به تغییر مجموعه نویسه‌ها نیست
         $this->charSet = strtolower(_CHARSET);
-        // You MUST specify the language code value so that the file exists: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["your-language-code"].php
-        $this->multimailer->setLanguage('en');
+        // شما باید مقدار کد زبان را مشخص کنید تا فایل موجود باشد: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["کد-زبان-شما"].php
+        $this->multimailer->setLanguage('fa');
     }
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding FromName
+     * زبان‌های چند بایتی تشویق می‌شوند تا روش مناسب خود را برای رمزگذاری نام فرستنده ایجاد کنند
      *
      * @param $text
      *
@@ -48,14 +48,14 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeFromName($text)
     {
-        // Activate the following line if needed
+        // در صورت نیاز خط زیر را فعال کنید
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
 
 
     /**
-     * Multibyte languages are encouraged to make their proper method for encoding Subject
+     * زبان‌های چند بایتی تشویق می‌شوند تا روش مناسب خود را برای رمزگذاری موضوع ایجاد کنند
      *
      * @param $text
      *
@@ -63,7 +63,7 @@ class XoopsMailerLocal extends XoopsMailer
      */
     public function encodeSubject($text)
     {
-        // Activate the following line if needed
+        // در صورت نیاز خط زیر را فعال کنید
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }

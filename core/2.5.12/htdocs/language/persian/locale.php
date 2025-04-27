@@ -19,36 +19,36 @@
  * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  * @todo                To be handled by i18n/l10n
  */
-defined('XOOPS_ROOT_PATH') || exit('Restricted access');
+defined('XOOPS_ROOT_PATH') || exit('دسترسی محدود');
 
-setlocale(LC_ALL, 'en_US');
+setlocale(LC_ALL, 'fa_IR');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
-// insert double '\' before 't','r','n'
+// !!مهم!! قبل از هر کاراکتر از کاراکترهای رزرو شده، '\' را وارد کنید: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
+// قبل از 't','r','n' دو '\' وارد کنید
 define('_TODAY', "\T\o\d\a\y G:i");
 define('_YESTERDAY', "\Y\\e\s\\t\\e\\r\d\a\y G:i");
 define('_MONTHDAY', 'n/j G:i');
 define('_YEARMONTHDAY', 'Y/n/j G:i');
-define('_ELAPSE', '%s ago');
-define('_TIMEFORMAT_DESC', "Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ';<br>' . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br>" . "specified string - Refer to <a href=\"https://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
+define('_ELAPSE', '%s پیش');
+define('_TIMEFORMAT_DESC', "فرمتهای معتبر: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ';<br>' . "\"c\" یا \"custom\" - فرمت طبق فاصله زمانی از زمان حال؛ \"e\" - زمان گذشته; \"mysql\" - Y-m-d H:i:s;<br>" . "رشته مشخصشده - به <a href=\"https://php.net/manual/en/function.date.php\" rel=\"external\">راهنمای PHP</a> مراجعه کنید.");
 
 if (!class_exists('XoopsLocalAbstract')) {
     include_once XOOPS_ROOT_PATH . '/class/xoopslocal.php';
 }
 
 /**
- * A Xoops Local
+ * یک Xoops Local
  *
- * @package             kernel
- * @subpackage          Language
+ * @package             هسته
+ * @subpackage          زبان
  *
- * @author              Taiwen Jiang <phppp@users.sourceforge.net>
- * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
+ * @author              تایون جیانگ <phppp@users.sourceforge.net>
+ * @copyright       (c) 2000-2016 پروژه XOOPS (www.xoops.org)
  */
 class XoopsLocal extends XoopsLocalAbstract
 {
     /**
-     * Number Formats
+     * فرمتهای عددی
      *
      * @param  unknown_type $number
      * @return mixed
@@ -59,11 +59,11 @@ class XoopsLocal extends XoopsLocalAbstract
     }
 
     /**
-     * Money Format
+     * فرمت پول
      *
      * @param  string $format
      * @param  string $number
-     * @return money  format
+     * @return پول  فرمتشده
      */
     public function money_format($format, $number)
     {

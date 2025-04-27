@@ -1,15 +1,15 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-A web user from {IP} has just requested a new password.
-Here are your login details at {SITENAME}.
+یک کاربر وب از آدرس IP {IP} به تازگی درخواست رمز عبور جدید کرده است.
+در اینجا جزئیات ورود شما در {SITENAME} آمده است.
 
-Username: {X_UNAME}
-New Password: {NEWPWD}
+نام کاربری: {X_UNAME}
+رمز عبور جدید: {NEWPWD}
 
-You can change it after you login at {SITEURL}user.php.
-If you didn't ask for this, don't worry. You are seeing this message, not 'them'. If this was an error, we are really sorry but please login with your new password.
+شما میتوانید پس از ورود به سایت با استفاده از لینک {SITEURL}user.php آن را تغییر دهید.
+اگر شما این درخواست را نکردهاید، نگران نباشید. شما این پیام را میبینید، نه "آنها". اگر این یک خطا بوده است، واقعاً متاسفیم، اما لطفاً با رمز عبور جدید خود وارد شوید.
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+مدیر وبسایت
 {ADMINMAIL}

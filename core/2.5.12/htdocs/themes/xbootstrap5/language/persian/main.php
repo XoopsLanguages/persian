@@ -1,66 +1,67 @@
 <?php
 
-define('THEME_INFO', 'Info');
-define('THEME_CLOSE', 'Close');
+define('THEME_INFO', 'اطلاعات');
+define('THEME_CLOSE', 'بستن');
 
-//Nav Menu
-define('THEME_HOME', 'Home');
-define('THEME_MODULE1', 'About');
-define('THEME_MODULE2', 'News');
-define('THEME_MODULE3', 'Forum');
-define('THEME_MODULE4', 'Contact');
-define('THEME_SEARCH_TEXT', 'Search here...');
-define('THEME_SEARCH_BUTTON', 'Go');
+// منوی ناوبری
+define('THEME_HOME', 'خانه');
+define('THEME_MODULE1', 'درباره ما');
+define('THEME_MODULE2', 'اخبار');
+define('THEME_MODULE3', 'انجمن');
+define('THEME_MODULE4', 'تماس');
+define('THEME_SEARCH_TEXT', 'جستجو کنید...');
+define('THEME_SEARCH_BUTTON', 'جستجو');
 
-//Slider
-define('THEME_READMORE', 'Read More');
+// اسلایدر
+define('THEME_READMORE', 'ادامه مطلب');
 
-define('THEME_SLIDE_LABEL1', 'First slide label');
-define('THEME_SLIDE_SUBLABEL1', 'Some representative placeholder content for the first slide.');
-define('THEME_SLIDE_LABEL2', 'Second slide label');
-define('THEME_SLIDE_SUBLABEL2', 'Some representative placeholder content for the second slide.');
-define('THEME_SLIDE_LABEL3', 'Third slide label');
-define('THEME_SLIDE_SUBLABEL3', 'Some representative placeholder content for the third slide.');
-define('THEME_SLIDE_LABEL4', 'Fourth slide label');
-define('THEME_SLIDE_SUBLABEL4', 'Some representative placeholder content for the fourth slide.');
-define('THEME_SLIDE_LABEL5', 'Fifth slide label');
-define('THEME_SLIDE_SUBLABEL5', 'Some representative placeholder content for the fifth slide.');
-define('THEME_SLIDE_LABEL6', 'Sixth slide label');
-define('THEME_SLIDE_SUBLABEL6', 'Some representative placeholder content for the Sixth slide.');
-//Home Message
-define('THEME_ABOUTUS', 'About Us');
-define('THEME_LEARNINGMORE', 'Learning More...');
+define('THEME_SLIDE_LABEL1', 'برچسب اسلاید اول');
+define('THEME_SLIDE_SUBLABEL1', 'محتوای نمایشی برای اسلاید اول.');
+define('THEME_SLIDE_LABEL2', 'برچسب اسلاید دوم');
+define('THEME_SLIDE_SUBLABEL2', 'محتوای نمایشی برای اسلاید دوم.');
+define('THEME_SLIDE_LABEL3', 'برچسب اسلاید سوم');
+define('THEME_SLIDE_SUBLABEL3', 'محتوای نمایشی برای اسلاید سوم.');
+define('THEME_SLIDE_LABEL4', 'برچسب اسلاید چهارم');
+define('THEME_SLIDE_SUBLABEL4', 'محتوای نمایشی برای اسلاید چهارم.');
+define('THEME_SLIDE_LABEL5', 'برچسب اسلاید پنجم');
+define('THEME_SLIDE_SUBLABEL5', 'محتوای نمایشی برای اسلاید پنجم.');
+define('THEME_SLIDE_LABEL6', 'برچسب اسلاید ششم');
+define('THEME_SLIDE_SUBLABEL6', 'محتوای نمایشی برای اسلاید ششم.');
 
-//NewBB
-define('THEME_NEWBB_TOPIC', 'More');
-define('THEME_FORUM_SPONSORBY', 'Sponsor By.: ');
-define('THEME_GOTOTHEFORUM', 'Go to Forum');
-define('THEME_FORUM_DESCRIPTION', 'Description');
-define('THEME_NEWBB_SEARCH_FORUM', 'Search in forum...');
-define('THEME_NEWBB_SEARCH_TOPIC', 'Search in topic...');
-define('THEME_FORUM_DESC', 'About This Forum');
-define('THEME_FORUM_NEWTOPIC', 'New Topic');
-define('THEME_FORUM_REGISTER', 'Register');
-define('THEME_FORUM_SEARCH', 'Search');
-define('THEME_FORUM_ADVSEARCH', 'Advanced Search');
-if (!defined ('THEME_FORUM_REPLY')) {
-    define('THEME_FORUM_REPLY', 'Reply');
+// پیام خانه
+define('THEME_ABOUTUS', 'درباره ما');
+define('THEME_LEARNINGMORE', 'بیشتر بدانید...');
+
+// NewBB
+define('THEME_NEWBB_TOPIC', 'بیشتر');
+define('THEME_FORUM_SPONSORBY', 'حامی: ');
+define('THEME_GOTOTHEFORUM', 'به انجمن بروید');
+define('THEME_FORUM_DESCRIPTION', 'توضیحات');
+define('THEME_NEWBB_SEARCH_FORUM', 'جستجو در انجمن...');
+define('THEME_NEWBB_SEARCH_TOPIC', 'جستجو در موضوع...');
+define('THEME_FORUM_DESC', 'درباره این انجمن');
+define('THEME_FORUM_NEWTOPIC', 'موضوع جدید');
+define('THEME_FORUM_REGISTER', 'ثبتنام');
+define('THEME_FORUM_SEARCH', 'جستجو');
+define('THEME_FORUM_ADVSEARCH', 'جستجوی پیشرفته');
+if (!defined('THEME_FORUM_REPLY')) {
+    define('THEME_FORUM_REPLY', 'پاسخ');
 }
-define('THEME_ADD_POLL', 'Add Poll');
+define('THEME_ADD_POLL', 'افزودن نظرسنجی');
 
-//Block login
-define('THEME_LOGIN', 'Your Username');
-define('THEME_PASS', 'Your Password');
+// بلاک ورود
+define('THEME_LOGIN', 'نام کاربری شما');
+define('THEME_PASS', 'رمز عبور شما');
 
-//Block User
-define('THEME_USER_WELCOME', 'Welcome');
+// بلاک کاربر
+define('THEME_USER_WELCOME', 'خوش آمدید');
 
-//Account tab
-define('THEME_ACCOUNT', 'Account');
-define('THEME_ACCOUNT_EDIT', 'Edit Account');
-define('THEME_ACCOUNT_LOGIN', 'Login');
-define('THEME_ACCOUNT_LOGOUT', 'Logout');
-define('THEME_ACCOUNT_MESSAGES', 'Messages');
-define('THEME_ACCOUNT_NOTIFICATIONS', 'Notifications');
-define('THEME_ACCOUNT_REGISTER', 'Sign Up');
-define('THEME_ACCOUNT_TOOLBAR', 'Toolbar');
+// تب حساب
+define('THEME_ACCOUNT', 'حساب');
+define('THEME_ACCOUNT_EDIT', 'ویرایش حساب');
+define('THEME_ACCOUNT_LOGIN', 'ورود');
+define('THEME_ACCOUNT_LOGOUT', 'خروج');
+define('THEME_ACCOUNT_MESSAGES', 'پیامها');
+define('THEME_ACCOUNT_NOTIFICATIONS', 'اعلانها');
+define('THEME_ACCOUNT_REGISTER', 'ثبتنام');
+define('THEME_ACCOUNT_TOOLBAR', 'نوار ابزار');

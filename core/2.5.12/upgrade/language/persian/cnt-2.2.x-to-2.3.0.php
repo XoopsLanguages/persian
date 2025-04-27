@@ -4,9 +4,9 @@
 // Translator: XOOPS Translation Team
 
 define('_CONFIRM_UPGRADE_220', "
-The upgrade scripts will migrate data from existent 'profile' module.<br>
-Please don't uninstall the existent 'profile' module manually, otherwise corresponding data won't be migrated.<br><br>
-Once the upgrade process is fully completed please <strong>go to module administration area to update 'profile' module</strong>. Once this is done, profile data will be migrated completely.<br><br>
-To cancel the upgrade, <a href='index.php'>click here</a>.<br><br>
-Or to <a style='color:green; font-size:1.3em;' href='index.php?action=next&upd220=ok'>proceed</a>.
+اسکریپتهای ارتقاء دادهها را از ماژول موجود 'profile' منتقل خواهند کرد.<br>
+لطفاً ماژول موجود 'profile' را به صورت دستی حذف نصب نکنید، در غیر این صورت دادههای مربوطه منتقل نخواهند شد.<br><br>
+پس از اتمام کامل فرآیند ارتقاء، لطفاً برای <strong>بهروزرسانی ماژول 'profile' به قسمت مدیریت ماژولها بروید</strong>. پس از انجام این کار، دادههای پروفایل به طور کامل منتقل خواهند شد.<br><br>
+برای لغو ارتقاء، <a href='index.php'>اینجا کلیک کنید</a>.<br><br>
+یا برای <a style='color:green; font-size:1.3em;' href='index.php?action=next&upd220=ok'>ادامه دادن</a>.
 ");

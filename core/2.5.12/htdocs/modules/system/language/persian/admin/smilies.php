@@ -5,29 +5,30 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-//Nav
-define('_AM_SYSTEM_SMILIES_NAV_MANAGER', 'Smilies Manager');
-define('_AM_SYSTEM_SMILIES_NAV_LIST', 'Smilies list');
-define('_AM_SYSTEM_SMILIES_NAV_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_NAV_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_NAV_DELETE', 'Delete smilie');
+
+// Navigation
+define('_AM_SYSTEM_SMILIES_NAV_MANAGER', 'مدیریت شکلکها');
+define('_AM_SYSTEM_SMILIES_NAV_LIST', 'لیست شکلکها');
+define('_AM_SYSTEM_SMILIES_NAV_ADD', 'افزودن شکلک جدید');
+define('_AM_SYSTEM_SMILIES_NAV_EDIT', 'ویرایش شکلک');
+define('_AM_SYSTEM_SMILIES_NAV_DELETE', 'حذف شکلک');
 // Tips
-define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>Add, update or delete smilies</li></ul>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>Max uploaded files size: %s ko</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS', '<ul><li>افزودن، بهروزرسانی یا حذف شکلکها</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1', '<ul><li>انواع MIME مجاز: %s</li>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2', '<li>حداکثر اندازه فایلهای بارگذاری شده: %s کیلوبایت</li></ul>');
 //Infos
-define('_AM_SYSTEM_SMILIES_ACTION', 'Action');
-define('_AM_SYSTEM_SMILIES_ADD', 'Add a new smilie');
-define('_AM_SYSTEM_SMILIES_CODE', 'Code');
-define('_AM_SYSTEM_SMILIES_DELETE', 'Delete smilie');
-define('_AM_SYSTEM_SMILIES_DESCRIPTION', 'Description');
-define('_AM_SYSTEM_SMILIES_DISPLAY', 'Display in form');
-define('_AM_SYSTEM_SMILIES_EDIT', 'Edit smilie');
-define('_AM_SYSTEM_SMILIES_FILE', 'Smilie file');
-define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'Files exist in: %s');
-define('_AM_SYSTEM_SMILIES_OFF', 'Display in the form ');
-define('_AM_SYSTEM_SMILIES_ON', 'Does not display in the form');
-define('_AM_SYSTEM_SMILIES_SMILIE', 'Smilie');
-define('_AM_SYSTEM_SMILIES_SUREDEL', 'Are you sure you want to delete this smilie?');
-define('_AM_SYSTEM_SMILIES_UPLOADS', 'Upload');
+define('_AM_SYSTEM_SMILIES_ACTION', 'عملیات');
+define('_AM_SYSTEM_SMILIES_ADD', 'افزودن شکلک جدید');
+define('_AM_SYSTEM_SMILIES_CODE', 'کد');
+define('_AM_SYSTEM_SMILIES_DELETE', 'حذف شکلک');
+define('_AM_SYSTEM_SMILIES_DESCRIPTION', 'توضیحات');
+define('_AM_SYSTEM_SMILIES_DISPLAY', 'نمایش در فرم');
+define('_AM_SYSTEM_SMILIES_EDIT', 'ویرایش شکلک');
+define('_AM_SYSTEM_SMILIES_FILE', 'فایل شکلک');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'فایلها موجود در: %s');
+define('_AM_SYSTEM_SMILIES_OFF', 'نمایش در فرم ');
+define('_AM_SYSTEM_SMILIES_ON', 'عدم نمایش در فرم');
+define('_AM_SYSTEM_SMILIES_SMILIE', 'شکلک');
+define('_AM_SYSTEM_SMILIES_SUREDEL', 'آیا مطمئن هستید که میخواهید این شکلک را حذف کنید؟');
+define('_AM_SYSTEM_SMILIES_UPLOADS', 'بارگذاری');
 define('_AM_SYSTEM_SMILIES_SAVE', _AM_SYSTEM_DBUPDATED);

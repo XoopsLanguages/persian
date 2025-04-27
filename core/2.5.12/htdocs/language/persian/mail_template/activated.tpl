@@ -1,12 +1,12 @@
-Hello {X_UNAME},
+سلام {X_UNAME},
 
-Your new profile at {SITENAME} has been activated by the administrator.
+پروفایل جدید شما در {SITENAME} توسط مدیر فعال شده است.
 
-You can now login from the following URL with the password you have submitted at registration.
+اکنون میتوانید با استفاده از رمز عبوری که هنگام ثبتنام وارد کردهاید، از طریق URL زیر وارد شوید.
 
 {SITEURL}user.php
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+مدیر وبسایت
 {ADMINMAIL}

@@ -1,8 +1,8 @@
-For XOOPS data
+برای دادههای XOOPS
 
-1 For security considerations, you are strongly advised to move this folder out of the Document Root.
-2 Make this folder writable
-3 Make sure that the following subfolders are available and writable:
+۱ به دلایل امنیتی، اکیداً توصیه میشود این پوشه را از ریشه سند (Document Root) خارج کنید.
+۲ این پوشه را قابل نوشتن کنید.
+۳ اطمینان حاصل کنید که زیرپوشههای زیر موجود و قابل نوشتن هستند:
   configs/
   configs/captcha/
   configs/textsanizer/
@@ -13,8 +13,7 @@ For XOOPS data
   data/
   protector/
 
-Note: These directories should already exist, and should have been copied in from the installation archive. There are critical files included in that copy.
+توجه: این دایرکتوریها باید از قبل وجود داشته باشند و از آرشیو نصب کپی شده باشند. فایلهای مهمی در آن کپی گنجانده شده است.
 
-For full documentation on installing or upgrading XOOPS please see:
+برای مستندات کامل در مورد نصب یا ارتقاء XOOPS، لطفاً به این لینک مراجعه کنید:
 https://xoops.gitbook.io/xoops-install-upgrade/
-

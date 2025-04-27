@@ -13,10 +13,10 @@ $supports['english'] = [
     'title' => 'English support',
 ];
 
-// Add extra support sites, use corresponding language folder name as key, for instance:
+// افزودن سایتهای پشتیبانی اضافی، از نام پوشه زبان مربوطه به عنوان کلید استفاده کنید، به عنوان مثال:
 /*
-$supports["french"] = array(
-    "url"   => "http://www.frxoops.org/",
-    "title" => "Support francophone"
+$supports["persian"] = array(
+    "url"   => "http://www.fa-xoops.org/",
+    "title" => "پشتیبانی فارسی"
 );
 */

@@ -1,3 +1,3 @@
-tinyMCE.addI18n('en.xoopscode',{
-    code_desc:"Insert code"
+tinyMCE.addI18n('fa.xoopscode',{
+    code_desc:"درج کد"
 });

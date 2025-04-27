@@ -1,11 +1,11 @@
-Hello {FRIEND_NAME},
+سلام {FRIEND_NAME},
 
-Your friend {YOUR_NAME} liked our site and wanted to show it to you.
+دوست شما {YOUR_NAME} از سایت ما خوشش آمده و خواسته است که آن را به شما نشان دهد.
 
-Site Name: {SITENAME}
-Site URL:  {SITEURL}
+نام سایت: {SITENAME}
+آدرس سایت: {SITEURL}
 
 -----------
-{SITENAME} ({SITEURL}) 
-webmaster
+{SITENAME} ({SITEURL})
+مدیر وبسایت
 {ADMINMAIL}

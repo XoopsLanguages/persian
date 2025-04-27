@@ -3,22 +3,22 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PM_MI_NAME', 'Private Messaging');
-define('_PM_MI_DESC', 'Module for private messaging between users');
-define('_PM_MI_INDEX', 'Home');
-define('_PM_MI_PRUNE', 'Prune Messages');
-define('_PM_MI_LINK_TITLE', 'PM Link');
-define('_PM_MI_LINK_DESCRIPTION', 'Shows a link to send a private message to the user');
-define('_PM_MI_MESSAGE', 'Write a message to');
-define('_PM_MI_PRUNESUBJECT', 'Prune PM subject line');
-define('_PM_MI_PRUNESUBJECT_DESC', 'This will be the subject of the PM to the user, received after a PM prune');
-define('_PM_MI_PRUNEMESSAGE', 'Prune PM body message');
-define('_PM_MI_PRUNEMESSAGE_DESC', "This message will be in the body of the message to users after one or more of their messages have been removed from their inbox during a PM prune. Use {PM_COUNT} in the text to be replaced with the number of messages removed from this user's inbox");
-define('_PM_MI_PRUNESUBJECTDEFAULT', 'Messages deleted during cleanup');
-define('_PM_MI_PRUNEMESSAGEDEFAULT', 'During a cleanup of the Private Messaging, XOOPS has deleted {PM_COUNT} messages from your inbox to save space and resources');
-define('_PM_MI_MAXSAVE', 'Maximum items in savebox');
+define('_PM_MI_NAME', 'پیام خصوصی');
+define('_PM_MI_DESC', 'ماژول برای ارسال پیام خصوصی بین کاربران');
+define('_PM_MI_INDEX', 'خانه');
+define('_PM_MI_PRUNE', 'پاکسازی پیامها');
+define('_PM_MI_LINK_TITLE', 'لینک پیام خصوصی');
+define('_PM_MI_LINK_DESCRIPTION', 'لینکی برای ارسال پیام خصوصی به کاربر نمایش میدهد');
+define('_PM_MI_MESSAGE', 'نوشتن پیام به');
+define('_PM_MI_PRUNESUBJECT', 'خط موضوع پیام پاکشده');
+define('_PM_MI_PRUNESUBJECT_DESC', 'این عنوان برای پیام خصوصی به کاربر خواهد بود که پس از پاکسازی پیامهای خصوصی دریافت میشود');
+define('_PM_MI_PRUNEMESSAGE', 'پیام بدنه پیام پاکشده');
+define('_PM_MI_PRUNEMESSAGE_DESC', "این پیام در بدنه پیام به کاربران خواهد بود پس از اینکه یکی یا چند پیام آنها از صندوق ورودیشان در طی پاکسازی پیامهای خصوصی حذف شده باشد. از {PM_COUNT} در متن استفاده کنید که با تعداد پیامهای حذفشده از صندوق ورودی این کاربر جایگزین میشود");
+define('_PM_MI_PRUNESUBJECTDEFAULT', 'پیامهای حذفشده در طی پاکسازی');
+define('_PM_MI_PRUNEMESSAGEDEFAULT', 'در طی پاکسازی پیامهای خصوصی، XOOPS {PM_COUNT} پیام از صندوق ورودی شما حذف کرده است تا فضا و منابع ذخیرهسازی را صرفهجویی کند');
+define('_PM_MI_MAXSAVE', 'حداکثر موارد در جعبه ذخیره');
 define('_PM_MI_MAXSAVE_DESC', '');
-define('_PM_MI_PERPAGE', 'Messages per page');
+define('_PM_MI_PERPAGE', 'پیامها در هر صفحه');
 define('_PM_MI_PERPAGE_DESC', '');
 //1.07
-define('_PM_MI_ABOUT', 'About');
+define('_PM_MI_ABOUT', 'درباره');

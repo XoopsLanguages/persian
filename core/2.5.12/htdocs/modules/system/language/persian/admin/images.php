@@ -5,44 +5,45 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
+
 // Navigation
-define('_AM_SYSTEM_IMAGES_MANAGER', 'Image Manager');
-define('_AM_SYSTEM_IMAGES_MAIN', 'Main');
-define('_AM_SYSTEM_IMAGES_IMGLIST', 'Image List');
+define('_AM_SYSTEM_IMAGES_MANAGER', 'مدیریت تصاویر');
+define('_AM_SYSTEM_IMAGES_MAIN', 'اصلی');
+define('_AM_SYSTEM_IMAGES_IMGLIST', 'لیست تصاویر');
 // Main
-define('_AM_SYSTEM_IMAGES_ADDCAT', 'Add Category');
-define('_AM_SYSTEM_IMAGES_ADDIMG', 'Add Image');
-define('_AM_SYSTEM_IMAGES_MULTIUPLOAD', 'Multi uploads');
-define('_AM_SYSTEM_IMAGES_EDITIMG', 'Edit Image');
-define('_AM_SYSTEM_IMAGES_CATLIST', 'Category List');
-define('_AM_SYSTEM_IMAGES_NOCAT', 'No Category Available');
-define('_AM_SYSTEM_IMAGES_NAME', 'Name');
-define('_AM_SYSTEM_IMAGES_NBIMAGES', 'Images');
-define('_AM_SYSTEM_IMAGES_MAXSIZE', 'Max size');
-define('_AM_SYSTEM_IMAGES_MAXWIDTH', 'Max width');
-define('_AM_SYSTEM_IMAGES_MAXHEIGHT', 'Max height');
-define('_AM_SYSTEM_IMAGES_DISPLAY', 'Display');
-define('_AM_SYSTEM_IMAGES_ACTIONS', 'Actions');
-define('_AM_SYSTEM_IMAGES_VIEW', 'View');
-define('_AM_SYSTEM_IMAGES_INDB', ' Store in the database (as binary "blob" data)');
-define('_AM_SYSTEM_IMAGES_ASFILE', ' Store as files (in uploads directory)<br>');
-define('_AM_SYSTEM_IMAGES_IMGCATNAME', 'Category Name:');
-define('_AM_SYSTEM_IMAGES_IMGCATRGRP', 'Select groups for image manager use:<br><br><span style="font-weight: normal;">These are groups allowed to use the image manager for selecting images but not uploading. Webmaster has automatic access.</span>');
-define('_AM_SYSTEM_IMAGES_IMGCATWGRP', 'Select groups allowed to upload images:<br><br><span style="font-weight: normal;">Typical usage is for moderator and admin groups.</span>');
-define('_AM_SYSTEM_IMAGES_IMGCATDISPLAY', 'Display this category?');
-define('_AM_SYSTEM_IMAGES_IMGCATSTRTYPE', 'Images are uploaded to:');
-define('_AM_SYSTEM_IMAGES_STRTYOPENG', 'This can not be changed afterwards!');
-define('_AM_SYSTEM_IMAGES_IMGCATWEIGHT', 'Display order in image manager:');
-define('_AM_SYSTEM_IMAGES_OFF', 'Display in image manager');
-define('_AM_SYSTEM_IMAGES_ON', 'Does not display in image manager');
-define('_AM_SYSTEM_IMAGES_URL', 'Show image URL');
+define('_AM_SYSTEM_IMAGES_ADDCAT', 'افزودن دسته بندی');
+define('_AM_SYSTEM_IMAGES_ADDIMG', 'افزودن تصویر');
+define('_AM_SYSTEM_IMAGES_MULTIUPLOAD', 'بارگذاری چندگانه');
+define('_AM_SYSTEM_IMAGES_EDITIMG', 'ویرایش تصویر');
+define('_AM_SYSTEM_IMAGES_CATLIST', 'لیست دسته بندیها');
+define('_AM_SYSTEM_IMAGES_NOCAT', 'هیچ دسته بندی موجود نیست');
+define('_AM_SYSTEM_IMAGES_NAME', 'نام');
+define('_AM_SYSTEM_IMAGES_NBIMAGES', 'تصاویر');
+define('_AM_SYSTEM_IMAGES_MAXSIZE', 'حداکثر اندازه');
+define('_AM_SYSTEM_IMAGES_MAXWIDTH', 'حداکثر عرض');
+define('_AM_SYSTEM_IMAGES_MAXHEIGHT', 'حداکثر ارتفاع');
+define('_AM_SYSTEM_IMAGES_DISPLAY', 'نمایش');
+define('_AM_SYSTEM_IMAGES_ACTIONS', 'عملیات');
+define('_AM_SYSTEM_IMAGES_VIEW', 'مشاهده');
+define('_AM_SYSTEM_IMAGES_INDB', ' ذخیره در پایگاه داده (به عنوان داده باینری "blob")');
+define('_AM_SYSTEM_IMAGES_ASFILE', ' ذخیره به عنوان فایل (در دایرکتوری uploads)<br>');
+define('_AM_SYSTEM_IMAGES_IMGCATNAME', 'نام دسته بندی:');
+define('_AM_SYSTEM_IMAGES_IMGCATRGRP', 'انتخاب گروهها برای استفاده از مدیریت تصاویر:<br><br><span style="font-weight: normal;">اینها گروههایی هستند که اجازه استفاده از مدیریت تصاویر برای انتخاب تصاویر را دارند اما اجازه بارگذاری ندارند. مدیر وب دسترسی خودکار دارد.</span>');
+define('_AM_SYSTEM_IMAGES_IMGCATWGRP', 'انتخاب گروههایی که اجازه بارگذاری تصاویر را دارند:<br><br><span style="font-weight: normal;">کاربرد معمول برای گروههای مدیر و ناظر است.</span>');
+define('_AM_SYSTEM_IMAGES_IMGCATDISPLAY', 'نمایش این دسته بندی؟');
+define('_AM_SYSTEM_IMAGES_IMGCATSTRTYPE', 'تصاویر در اینجا بارگذاری میشوند:');
+define('_AM_SYSTEM_IMAGES_STRTYOPENG', 'این بعداً قابل تغییر نیست!');
+define('_AM_SYSTEM_IMAGES_IMGCATWEIGHT', 'ترتیب نمایش در مدیریت تصاویر:');
+define('_AM_SYSTEM_IMAGES_OFF', 'نمایش در مدیریت تصاویر');
+define('_AM_SYSTEM_IMAGES_ON', 'عدم نمایش در مدیریت تصاویر');
+define('_AM_SYSTEM_IMAGES_URL', 'نمایش URL تصویر');
 // Messages
-define('_AM_SYSTEM_IMAGES_RUDELIMG', 'Are you sure that you want to delete this images file?');
-define('_AM_SYSTEM_IMAGES_FAILSAVE', 'Failed save image %s into the database');
-define('_AM_SYSTEM_IMAGES_RUDELIMGCAT', 'Are you sure that you want to delete this category and all of its images files?');
-define('_AM_SYSTEM_IMAGES_FAILDEL', 'Failed deleting image %s from the database');
-define('_AM_SYSTEM_IMAGES_FAILDELCAT', 'Failed deleting image category %s from the database');
-define('_AM_SYSTEM_IMAGES_FAILUNLINK', 'Failed deleting image %s from the server directory');
-define("_AM_SYSTEM_IMAGES_SCATDELNG","Can't delete this category");
+define('_AM_SYSTEM_IMAGES_RUDELIMG', 'آیا مطمئن هستید که میخواهید این فایل تصویر را حذف کنید؟');
+define('_AM_SYSTEM_IMAGES_FAILSAVE', 'ذخیره تصویر %s در پایگاه داده با شکست مواجه شد');
+define('_AM_SYSTEM_IMAGES_RUDELIMGCAT', 'آیا مطمئن هستید که میخواهید این دسته بندی و تمام فایلهای تصاویر آن را حذف کنید؟');
+define('_AM_SYSTEM_IMAGES_FAILDEL', 'حذف تصویر %s از پایگاه داده با شکست مواجه شد');
+define('_AM_SYSTEM_IMAGES_FAILDELCAT', 'حذف دسته بندی تصویر %s از پایگاه داده با شکست مواجه شد');
+define('_AM_SYSTEM_IMAGES_FAILUNLINK', 'حذف تصویر %s از دایرکتوری سرور با شکست مواجه شد');
+define("_AM_SYSTEM_IMAGES_SCATDELNG","امکان حذف این دسته بندی وجود ندارد");
 // Tips
-define('_AM_SYSTEM_IMAGES_TIPS', '<ul><li>Manage categories of images and users permissions</li></ul>');
+define('_AM_SYSTEM_IMAGES_TIPS', '<ul><li>مدیریت دستهبندیهای تصاویر و مجوزهای کاربران</li></ul>');

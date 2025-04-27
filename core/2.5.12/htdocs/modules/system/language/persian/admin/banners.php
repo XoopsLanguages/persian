@@ -5,73 +5,73 @@
  * _LANGCODE    en
  * _CHARSET     UTF-8
  */
-//%%%%%%        Admin Module Name  Banners         %%%%%
+//%%%%%%        نام ماژول مدیریت بنرها         %%%%%
 define('_AM_SYSTEM_BANNERS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
-//Nav
-define('_AM_SYSTEM_BANNERS_NAV_MANAGER', 'Banners Management');
-define('_AM_SYSTEM_BANNERS_NAV_MAIN', 'Banners and clients list');
-define('_AM_SYSTEM_BANNERS_NAV_EDITBNR', 'Edit banner');
-define('_AM_SYSTEM_BANNERS_NAV_DELETEBNR', 'Delete banner');
-define('_AM_SYSTEM_BANNERS_NAV_DELETEFINISHBNR', 'Delete finish banner');
-define('_AM_SYSTEM_BANNERS_NAV_ADDBNR', 'Add a New Banner');
-define('_AM_SYSTEM_BANNERS_NAV_EDITADVCLI', 'Edit Advertising Client');
-define('_AM_SYSTEM_BANNERS_NAV_ADDNWCLI', 'Add a New Client');
-define('_AM_SYSTEM_BANNERS_NAV_DELETECLI', 'Delete Client');
-define('_AM_SYSTEM_BANNERS_CURACTBNR', 'Current Active Banners');
-define('_AM_SYSTEM_BANNERS_BANNERID', 'Banner ID');
-define('_AM_SYSTEM_BANNERS_IMPRESION', 'Impressions');
-define('_AM_SYSTEM_BANNERS_IMPLEFT', 'Imp. Left');
-define('_AM_SYSTEM_BANNERS_CLICKS', 'Clicks');
-define('_AM_SYSTEM_BANNERS_NCLICKS', '% Clicks');
-define('_AM_SYSTEM_BANNERS_CLINAME', 'Client Name');
-define('_AM_SYSTEM_BANNERS_FUNCTION', 'Functions');
-define('_AM_SYSTEM_BANNERS_UNLIMIT', 'Unlimited');
-define('_AM_SYSTEM_BANNERS_VIEW', 'View banner');
-define('_AM_SYSTEM_BANNERS_EDIT', 'Edit');
-define('_AM_SYSTEM_BANNERS_DELETE', 'Delete');
-define('_AM_SYSTEM_BANNERS_FINISHBNR', 'Finished Banners');
-define('_AM_SYSTEM_BANNERS_IMPD', 'Imp.');
-define('_AM_SYSTEM_BANNERS_STARTDATE', 'Date Started');
-define('_AM_SYSTEM_BANNERS_ENDDATE', 'Date Ended');
-define('_AM_SYSTEM_BANNERS_ADVCLI', 'Advertising Clients');
-define('_AM_SYSTEM_BANNERS_ACTIVEBNR', 'Active Banners');
-define('_AM_SYSTEM_BANNERS_CONTNAME', 'Contact Name');
-define('_AM_SYSTEM_BANNERS_CONTMAIL', 'Contact Email');
-define('_AM_SYSTEM_BANNERS_CLINAMET', 'Client Name:');
-define('_AM_SYSTEM_BANNERS_ADDNWBNR', 'Add a New Banner');
-define('_AM_SYSTEM_BANNERS_IMPPURCHT', 'Impressions Purchased:');
-define('_AM_SYSTEM_BANNERS_IMGURLT', 'Image URL:');
-define('_AM_SYSTEM_BANNERS_CLICKURLT', 'Click URL:');
-define('_AM_SYSTEM_BANNERS_ADDBNR', 'Add Banner');
-define('_AM_SYSTEM_BANNERS_ADDNWCLI', 'Add a New Client');
-define('_AM_SYSTEM_BANNERS_CONTNAMET', 'Contact Name:');
-define('_AM_SYSTEM_BANNERS_CONTMAILT', 'Contact Email:');
-define('_AM_SYSTEM_BANNERS_CLILOGINT', 'Client Login:');
-define('_AM_SYSTEM_BANNERS_CLIPASST', 'Client Password:');
-define('_AM_SYSTEM_BANNERS_ADDCLI', 'Add Client');
-define('_AM_SYSTEM_BANNERS_DELEBNR', 'Delete Banner');
-define('_AM_SYSTEM_BANNERS_SUREDELE', 'Are you sure to delete this Banner?');
-define('_AM_SYSTEM_BANNERS_NO', 'No');
-define('_AM_SYSTEM_BANNERS_YES', 'Yes');
-define('_AM_SYSTEM_BANNERS_EDITBNR', 'Edit Banner');
-define('_AM_SYSTEM_BANNERS_ADDIMPT', 'Add More Impressions:');
-define('_AM_SYSTEM_BANNERS_PURCHT', 'Purchased:');
-define('_AM_SYSTEM_BANNERS_MADET', 'Made:');
-define('_AM_SYSTEM_BANNERS_CHGBNR', 'Change Banner');
-define('_AM_SYSTEM_BANNERS_DELEADC', 'Delete Advertising Client');
-define('_AM_SYSTEM_BANNERS_SUREDELCLI', 'You are about to delete client <strong>%s</strong> and all its Banners!!!');
-define('_AM_SYSTEM_BANNERS_NOBNRRUN', "The client doesn't have any banners running now.");
-define('_AM_SYSTEM_BANNERS_WARNING', 'WARNING!!!');
-define('_AM_SYSTEM_BANNERS_ACTBNRRUN', 'This client has the following ACTIVE BANNERS running on our site:');
-define('_AM_SYSTEM_BANNERS_SUREDELBNR', 'Are you sure you want to delete this Client and ALL its Banners?');
-define('_AM_SYSTEM_BANNERS_EDITADVCLI', 'Edit Advertising Client');
-define('_AM_SYSTEM_BANNERS_EXTINFO', 'Extra Info:');
-define('_AM_SYSTEM_BANNERS_CHGCLI', 'Change Client');
-define('_AM_SYSTEM_BANNERS_USEHTML', 'Use HTML code?');
-define('_AM_SYSTEM_BANNERS_CODEHTML', 'Enter HTML code:');
-// Tips
+//منو ناوبری
+define('_AM_SYSTEM_BANNERS_NAV_MANAGER', 'مدیریت بنرها');
+define('_AM_SYSTEM_BANNERS_NAV_MAIN', 'لیست بنرها و مشتریان');
+define('_AM_SYSTEM_BANNERS_NAV_EDITBNR', 'ویرایش بنر');
+define('_AM_SYSTEM_BANNERS_NAV_DELETEBNR', 'حذف بنر');
+define('_AM_SYSTEM_BANNERS_NAV_DELETEFINISHBNR', 'حذف بنرهای تمامشده');
+define('_AM_SYSTEM_BANNERS_NAV_ADDBNR', 'اضافه کردن بنر جدید');
+define('_AM_SYSTEM_BANNERS_NAV_EDITADVCLI', 'ویرایش مشتری تبلیغات');
+define('_AM_SYSTEM_BANNERS_NAV_ADDNWCLI', 'اضافه کردن مشتری جدید');
+define('_AM_SYSTEM_BANNERS_NAV_DELETECLI', 'حذف مشتری');
+define('_AM_SYSTEM_BANNERS_CURACTBNR', 'بنرهای فعال فعلی');
+define('_AM_SYSTEM_BANNERS_BANNERID', 'شناسه بنر');
+define('_AM_SYSTEM_BANNERS_IMPRESION', 'نمایشها');
+define('_AM_SYSTEM_BANNERS_IMPLEFT', 'نمایش باقیمانده');
+define('_AM_SYSTEM_BANNERS_CLICKS', 'کلیکها');
+define('_AM_SYSTEM_BANNERS_NCLICKS', '% کلیکها');
+define('_AM_SYSTEM_BANNERS_CLINAME', 'نام مشتری');
+define('_AM_SYSTEM_BANNERS_FUNCTION', 'عملیات');
+define('_AM_SYSTEM_BANNERS_UNLIMIT', 'نامحدود');
+define('_AM_SYSTEM_BANNERS_VIEW', 'مشاهده بنر');
+define('_AM_SYSTEM_BANNERS_EDIT', 'ویرایش');
+define('_AM_SYSTEM_BANNERS_DELETE', 'حذف');
+define('_AM_SYSTEM_BANNERS_FINISHBNR', 'بنرهای تمامشده');
+define('_AM_SYSTEM_BANNERS_IMPD', 'نمایشها');
+define('_AM_SYSTEM_BANNERS_STARTDATE', 'تاریخ شروع');
+define('_AM_SYSTEM_BANNERS_ENDDATE', 'تاریخ پایان');
+define('_AM_SYSTEM_BANNERS_ADVCLI', 'مشتریان تبلیغاتی');
+define('_AM_SYSTEM_BANNERS_ACTIVEBNR', 'بنرهای فعال');
+define('_AM_SYSTEM_BANNERS_CONTNAME', 'نام تماس');
+define('_AM_SYSTEM_BANNERS_CONTMAIL', 'ایمیل تماس');
+define('_AM_SYSTEM_BANNERS_CLINAMET', 'نام مشتری:');
+define('_AM_SYSTEM_BANNERS_ADDNWBNR', 'اضافه کردن بنر جدید');
+define('_AM_SYSTEM_BANNERS_IMPPURCHT', 'نمایشهای خریداریشده:');
+define('_AM_SYSTEM_BANNERS_IMGURLT', 'آدرس URL تصویر:');
+define('_AM_SYSTEM_BANNERS_CLICKURLT', 'آدرس URL کلیک:');
+define('_AM_SYSTEM_BANNERS_ADDBNR', 'اضافه کردن بنر');
+define('_AM_SYSTEM_BANNERS_ADDNWCLI', 'اضافه کردن مشتری جدید');
+define('_AM_SYSTEM_BANNERS_CONTNAMET', 'نام تماس:');
+define('_AM_SYSTEM_BANNERS_CONTMAILT', 'ایمیل تماس:');
+define('_AM_SYSTEM_BANNERS_CLILOGINT', 'ورود مشتری:');
+define('_AM_SYSTEM_BANNERS_CLIPASST', 'رمز عبور مشتری:');
+define('_AM_SYSTEM_BANNERS_ADDCLI', 'اضافه کردن مشتری');
+define('_AM_SYSTEM_BANNERS_DELEBNR', 'حذف بنر');
+define('_AM_SYSTEM_BANNERS_SUREDELE', 'آیا مطمئن هستید که میخواهید این بنر را حذف کنید؟');
+define('_AM_SYSTEM_BANNERS_NO', 'خیر');
+define('_AM_SYSTEM_BANNERS_YES', 'بله');
+define('_AM_SYSTEM_BANNERS_EDITBNR', 'ویرایش بنر');
+define('_AM_SYSTEM_BANNERS_ADDIMPT', 'اضافه کردن نمایشهای بیشتر:');
+define('_AM_SYSTEM_BANNERS_PURCHT', 'خریداریشده:');
+define('_AM_SYSTEM_BANNERS_MADET', 'انجامشده:');
+define('_AM_SYSTEM_BANNERS_CHGBNR', 'تغییر بنر');
+define('_AM_SYSTEM_BANNERS_DELEADC', 'حذف مشتری تبلیغات');
+define('_AM_SYSTEM_BANNERS_SUREDELCLI', 'شما در حال حذف مشتری <strong>%s</strong> و تمام بنرهای آن هستید!!!');
+define('_AM_SYSTEM_BANNERS_NOBNRRUN', "این مشتری در حال حاضر هیچ بنری در حال اجرا ندارد.");
+define('_AM_SYSTEM_BANNERS_WARNING', 'هشدار!!!');
+define('_AM_SYSTEM_BANNERS_ACTBNRRUN', 'این مشتری بنرهای فعال زیر را در سایت ما در حال اجرا دارد:');
+define('_AM_SYSTEM_BANNERS_SUREDELBNR', 'آیا مطمئن هستید که میخواهید این مشتری و تمام بنرهای آن را حذف کنید؟');
+define('_AM_SYSTEM_BANNERS_EDITADVCLI', 'ویرایش مشتری تبلیغات');
+define('_AM_SYSTEM_BANNERS_EXTINFO', 'اطلاعات اضافی:');
+define('_AM_SYSTEM_BANNERS_CHGCLI', 'تغییر مشتری');
+define('_AM_SYSTEM_BANNERS_USEHTML', 'آیا از کد HTML استفاده میکنید؟');
+define('_AM_SYSTEM_BANNERS_CODEHTML', 'کد HTML را وارد کنید:');
+// نکات
 define('_AM_SYSTEM_BANNERS_NAV_TIPS', '
 <ul>
-<li>Add, modify and update category, banners and client.</li>
+<li>اضافه کردن، ویرایش و بهروزرسانی دستهبندیها، بنرها و مشتریان.</li>
 </ul>
 ');
